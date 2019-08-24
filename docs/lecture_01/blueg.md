@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-blurb blurasldfkasdf
+what's goin awn here?
 
 You can use the [editor on GitHub](https://github.com/dougrosman/saic-webart-fa19/edit/master/docs/markdown-test.md) to maintain and preview the content for your website in Markdown files.
 
