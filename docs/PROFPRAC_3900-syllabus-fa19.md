@@ -62,8 +62,8 @@ Assignments for each week will be listed at the end of each session's schedule. 
 2. [_Introduction to net.art (1994-1999)_](http://easylife.org/netart/) – Natalie Bookchin, Alexei Shulgin (1999)
 3. [_Web Work: A History of Internet Art_](https://monoskop.org/images/c/c5/Greene_Rachel_2000_Web_Work_A_History_of_Internet_Art.pdf)  – Rachel Greene (2000)
 
-#### Session 02 – Wed, Sep 04, 2019 | SUBSTITUTE: NICK BRIZ
-
+#### Session 02 – Wed, Sep 04, 2019 | HTML,
+__**__ __SUBSTITUTE: [NICK BRIZ](http://nickbriz.com/)__ __**__
 * Introductions and class overview/structure of the class
 * Context: A brief history and summary of Web Art/net.art/network art.
 * Getting everyone set up
