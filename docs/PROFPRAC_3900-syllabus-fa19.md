@@ -1,21 +1,21 @@
 # web art | ARTTECH 3900
 ### PROFPRAC 3900 Professional Practice: Web-Art
-__CREDITS:__ 3
-__SEMESTER:__ Fall 2019 | Wed Aug 28, 2019 – Wed Dec 11, 2019
-__MEETING DAYS/TIMES:__ Mondays + Wednesdays, 6pm – 9pm
-__LOCATION:__ MacLean 401
-__INSTITUTION:__ The School of the Art Institute of Chicago
+__CREDITS:__ 3 <br>
+__SEMESTER:__ Fall 2019 | Wed Aug 28, 2019 – Wed Dec 11, 2019 <br>
+__MEETING DAYS/TIMES:__ Mondays + Wednesdays, 6pm – 9pm <br>
+__LOCATION:__ MacLean 401 <br>
+__INSTITUTION:__ The School of the Art Institute of Chicago <br>
 
 #### INSTRUCTOR
-Doug Rosman | drosman@saic.edu | http://dougrosman.com
-Mentoring Hours: By appointment, send me an email
+Doug Rosman | drosman@saic.edu | http://dougrosman.com <br>
+Mentoring Hours: By appointment, send me an email <br>
 
 #### CLASS WEBSITE/MATERIALS
-https://dougrosman.github.io/saic-webart-fa19
-[Canvas](https://saic.instructure.com/courses/2560557)
+Class Website: [https://dougrosman.github.io/saic-webart-fa19](https://dougrosman.github.io/saic-webart-fa19) <br>
+[Canvas](https://saic.instructure.com/courses/2560557)<br>
 
 #### SLACK CHANNEL
-SAIC Web Art FA19 | https://saic-webart-fa19.slack.com/
+SAIC Web Art FA19 | [https://saic-webart-fa19.slack.com/](https://saic-webart-fa19.slack.com/) <br>
 
 ### COURSE DESCRIPTION
 **_Professional Practice: Web Art_** is a course that combines creative and practical knowledge related to web site development, and explores the history and culture of web art. Launched in 1989 as a remote file sharing system for scientists, the World Wide Web is now thirty years old. Today, the web functions as an exhibition space, a communications hub as well as a nexus for creative expression. Students in the Web Art class will learn the Hypertext Mark-Up Language (HTML), which is the basis of WWW authoring, as well as additional languages like CSS and Javascript to build varied websites. Potential overall format and conceptual frameworks for developing a media-rich website will be investigated, and ways of subverting the traditional web page format in order to create unique approaches to the dynamics of the web will be explored. Course activities include technical tutorials, preparing a résumé and CV, writing a project statement, creating a website, and critiquing projects.
