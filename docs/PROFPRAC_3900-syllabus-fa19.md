@@ -21,6 +21,12 @@ SAIC Web Art FA19 | <a href="https://saic-webart-fa19.slack.com/" target="blank"
 ### COURSE DESCRIPTION
 **_Professional Practice: Web Art_** is a course that combines creative and practical knowledge related to web site development, and explores the history and culture of web art. Launched in 1989 as a remote file sharing system for scientists, the World Wide Web is now thirty years old. Today, the web functions as an exhibition space, a communications hub as well as a nexus for creative expression. Students in the Web Art class will learn the Hypertext Mark-Up Language (HTML), which is the basis of WWW authoring, as well as additional languages like CSS and Javascript to build varied websites. Potential overall format and conceptual frameworks for developing a media-rich website will be investigated, and ways of subverting the traditional web page format in order to create unique approaches to the dynamics of the web will be explored. Course activities include technical tutorials, preparing a résumé and CV, writing a project statement, creating a website, and critiquing projects.
 
+### Course Materials
+* A computer that can connect to the internet
+* Atom -a text editor– atom.io
+* Github desktop client
+
+
 ### COURSE GOALS
 ##### KEY GOALS INCLUDE:
 * Implement a well-planned creative project, applying professional skills relevant to your artistic, creative, and/or scholarly practice.
@@ -33,6 +39,18 @@ SAIC Web Art FA19 | <a href="https://saic-webart-fa19.slack.com/" target="blank"
 * Think nonlinearly through hypermedia and code.
 Creatively deploy HTML, CSS and Javascript to create art on/for the web and with the web.
 * Build a critical framework for discussing your work in the wider context of internet art, net.art.
+
+### Course Texts
+_These readings will be assigned in various weeks throughout the semester. Additional optional readings may be added as necessary._ <br>
+<a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="blank">_As We May Think_</a> – Vannevar Bush (1945) <br>
+<a href="https://www.scientificamerican.com/article/long-live-the-web/" target="blank"> _Long Live the Web: A Call for Continued Open Standards and Neutrality_ </a> – Tim Berners-Lee (2010) <br>
+<a href="http://easylife.org/netart/" target="blank">_Introduction to net.art (1994-1999)_</a> – Natalie Bookchin, Alexei Shulgin (1999) <br>
+Doug Rushkoff “Program or Be Programmed”
+Olia Lialina “Rich User Experience, UI, and Desktopization of War” http://contemporary-home-computing.org/RUE/
+Ethan Zuckerman “The Internet’s Original Sin” https://www.theatlantic.com/technology/archive/2014/08/advertising-is-the-internets-original-sin/376041/
+Optional:
+• Borges “Garden of Forking Paths”
+• Jer Thorp “On Data and Performance”
 
 ### ASSIGNMENTS
 The course will include workshops and several short-term projects, a long-term project, relevant technical and theoretical reading, written responses, and technical research. The assignments are designed to deepen understanding of the technical tools, as well as provide space to apply them towards aesthetic and artistic exploration.
@@ -70,8 +88,7 @@ _Note: this is a living document. The course schedule/topics may evolve during t
     * Multi-page Websites
     * Embedding Content
     * __Assignment:__
-        1. ???
-        2. <a href="https://github.com/mikewesthad/saic-webart/raw/master/class-files/homework/Day02_Homework_DataDiary.pdf" target="blank">Data Diary</a>
+        1. 5 (Simple) Websites!
 
 #### Week 03 Hosting & CSS
 * ##### Mon 09/09:
@@ -82,6 +99,11 @@ _Note: this is a living document. The course schedule/topics may evolve during t
     * Typography
     * IDs, Classes and Advanced Selectors
     * CSS Box Model
+    * __Assignment:__
+        1. <a href="https://github.com/mikewesthad/saic-webart/raw/master/class-files/homework/Day02_Homework_DataDiary.pdf" target="blank">Data Diary</a>
+    * __Read:__
+        1. <a href="https://www.scientificamerican.com/article/long-live-the-web/" target="blank"> _Long Live the Web: A Call for Continued Open Standards and Neutrality_ </a> – Tim Berners-Lee (2010)
+
 
 #### Week 04: Advanced CSS
 * ##### Mon 09/16:
@@ -91,6 +113,10 @@ _Note: this is a living document. The course schedule/topics may evolve during t
 * ##### Wed 09/18:
     * CSS Position
     * CSS Animation
+    * __Assignment:__
+        1. TBD
+    * __Read:__
+        1. <a href="linktorushkoff" target="blank">Chapter 10 of _Program or Be Programmed: Ten Commands for a Digital Age_</a> – Douglas Rushkoff (2010)
 
 #### Week 05: Animations & Transitions
 * ##### Mon 09/23:
@@ -183,31 +209,22 @@ _Note: this is a living document. The course schedule/topics may evolve during t
 * ##### Wed 11/27:
     * THANKSGIVING NO CLASS
 
-#### Week 15: CRIT WEEK
+#### Week 15: CRITIQUE WEEK
 * ##### Mon 12/02:
     * CRIT WEEK NO CLASS
 * ##### Wed 12/04:
     * CRIT WEEK NO CLASS
 
-#### Week 16: Server-side Node.js & Real-time Web
+#### Week 16: Finish up Final Projects
 * ##### Mon 12/09:
-    * Work on Final Projects
+    * Final Project Lab Time
 * ##### Wed 12/11:
-    * Final Critiques
+    * Work on Final Projects
 
 #### Week 17: Last class!
 * ##### Mon 12/16:
-    * Bonus Lecture!
+    * Final Project Lab Time
 
-
-Week 10 (10/31, 11/02): JS Functions & p5.js
-Week 11 (11/07, 11/09): Creative Coding in p5.js
-Week 12 (11/14, 11/16): Getting Data & Project Proposals
-Week 13 (11/21): Video & Face Tracking on the Web
-Week 14 (11/28, 11/30): Server-side Node.js & Real-time Web
-Critique Week
-Week 15 (12/12, 12/14): Final Project Lab
-Week 16 (12/19): Final Project Critiques
 
 Milestones:
 
