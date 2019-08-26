@@ -1,4 +1,4 @@
-# web art | ARTTECH 3900
+# web art | ARTTECH 3900 – SYLLABUS
 ### PROFPRAC 3900 Professional Practice: Web-Art
 __CREDITS:__ 3 <br>
 __SEMESTER:__ Fall 2019 | Wed Aug 28, 2019 – Wed Dec 11, 2019 <br>
