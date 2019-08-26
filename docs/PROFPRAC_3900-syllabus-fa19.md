@@ -35,19 +35,19 @@ Creatively deploy HTML, CSS and Javascript to create art on/for the web and with
 * Build a critical framework for discussing your work in the wider context of internet art, net.art.
 
 ### ASSIGNMENTS
-The course will include workshops and several short-term projects, a long-term project, relevant technical and theoretical reading, written responses, and technical research. The assignments are designed to broaden and deepen understanding of the technical tools, as well as provide space to apply them towards aesthetic and artistic exploration.
+The course will include workshops and several short-term projects, a long-term project, relevant technical and theoretical reading, written responses, and technical research. The assignments are designed to deepen understanding of the technical tools, as well as provide space to apply them towards aesthetic and artistic exploration.
 
 Assignments for each week will be listed at the end of each session's schedule. __Readings and assignments should be completed by the following session__, unless otherwise noted.
 
-### RECEIVING CREDIT
+### ASSESSMENT AND GRADING
 Completed assignments will receive credit upon completion. __All assignments must be completed in order to receive credit for the course.__
 
 ### COURSE SCHEDULE
 _Note: this is a living document. The course schedule/topics may evolve during the semester_
 
 
-#### Week 01
-* ##### Wed 08/28: Introductions
+#### Week 01: Introductions & HTML
+* ##### Wed 08/28
     * Self Introductions
     * Syllabus
     * Introduction to Web Art
@@ -61,77 +61,145 @@ _Note: this is a living document. The course schedule/topics may evolve during t
         3. <a href="https://monoskop.org/images/c/c5/Greene_Rachel_2000_Web_Work_A_History_of_Internet_Art.pdf" target="blank">_Web Work: A History of Internet Art_</a>  – Rachel Greene (2000)
 
 
-#### Week 02
+#### Week 02: HTML Basics
 * ##### Mon 09/02: LABOR DAY NO CLASS
 * ##### Wed 09/04: HTML Basics (Substitute: <a href="http://nickbriz.com/" target="blank">Nick Briz</a>)
+    * Lists
+    * Inline Text Elements
+    * Semantic Markup
+    * Multi-page Websites
+    * Embedding Content
+    * __Assignment:__
+        1. ???
+        2. <a href="https://github.com/mikewesthad/saic-webart/raw/master/class-files/homework/Day02_Homework_DataDiary.pdf" target="blank">Data Diary</a>
 
-#### Week 03
-##### Mon 09/09:
-##### Wed 09/11:
+#### Week 03 Hosting & CSS
+* ##### Mon 09/09:
+    * Audio/Video
+    * Hosting with GitHub
+    * Introduction to CSS
+* ##### Wed 09/11:
+    * Typography
+    * IDs, Classes and Advanced Selectors
+    * CSS Box Model
 
-#### Week 04:
-##### Mon 09/16:
-##### Wed 09/18:
+#### Week 04: Advanced CSS
+* ##### Mon 09/16:
+    * CSS Box Model
+    * Horizontal Centering
+    * Grids with Inline-Block
+* ##### Wed 09/18:
+    * CSS Position
+    * CSS Animation
 
-#### Week 05:
-##### Mon 09/23:
-##### Wed 09/25:
+#### Week 05: Animations & Transitions
+* ##### Mon 09/23:
+    * Animations
+    * Transitions
+    * Media Styling
+    * Backgrounds
+* ##### Wed 09/25:
+    * Backgrounds
+    * Pseudo-classes
+    * Centering
 
-#### Week 05:
-##### Mon 09/30:
-##### Wed 10/02:
+#### Week 06: Advanced CSS & JS Basics
+* ##### Mon 09/30:
+    * Inheritance
+    * Specificity
+    * Banner Centering
+    * Startup Generator
 
-#### Week 06:
-##### Mon 10/07:
-##### Wed 10/09:
+* ##### Wed 10/02:
+    * CSS Across Pages
+    * Variables
+    * Writing HTML with JS
 
-#### Week 07:
-##### Mon 10/14:
-##### Wed 10/16:
+#### Week 07: DOM Manipulation, Loops, Arrays
+* ##### Mon 10/07:
+    * DOM Manipulation
+    * Loops
+* ##### Wed 10/09:
+    * Loops
+    * Arrays
 
-#### Week 08:
-##### Mon 10/21:
-##### Wed 10/23:
+#### Week 08: DOM Manipulation & JS/CSS Browser Extensions
+* ##### Mon 10/14:
+    * DOM Manipulation
+* ##### Wed 10/16:
+    * CSS Chrome Extensions
+    * JS Chrome Extensions
 
-#### Week 09:
-##### Mon 10/28:
-##### Wed 10/30:
+#### Week 09: JS/CSS Browser Extensions & Midterm Critiques
+* ##### Mon 10/21:
+    * JS Chrome Extensions
+    * Midterm Lab Time
+* ##### Wed 10/23:
+    * Midterm Critiques
 
-#### Week 10:
-##### Mon 11/04:
-##### Wed 11/06:
+#### Week 10: JS Functions & p5.js
+* ##### Mon 10/28:
+    * Functions
+    * Events
+* ##### Wed 10/30:
+    * Events
+    * Conditionals
+    * Canvas
+    * p5.js
 
-#### Week 11:
-##### Mon 11/11:
-##### Wed 11/13:
+#### Week 11: JS Functions & p5.js
+* ##### Mon 11/04:
+    * p5.js Random
+    * p5.js Transformations
+    * p5.sound
+* ##### Wed 11/06:
+    * p5.dom
+    * p5.js Video
+    * Nested Loops
 
-#### Week 12:
-##### Mon 11/18:
-##### Wed 11/20:
+#### Week 12: Creative Coding in p5.js
+* ##### Mon 11/11:
+    * p5.js Pixels
+    * p5.js Camera
+    * p5.js Typography
+* ##### Wed 11/13:
+    * One-on-one Meetings
+    * ASCII Camera
 
-#### Week 13:
-##### Mon 11/25:
-##### Wed 11/27:
+#### Week 13: Getting Data & Project Proposals
+* ##### Mon 11/18:
+    * p5.js Vertices & Shapes
+    * Objects
+    * Face Tracking
+* ##### Wed 11/20:
+    * Face Tracking
+    * Emotion Tracking
+    * p5.js in Chrome Extensions
 
-#### Week 14:
-##### Mon 12/02:
-##### Wed 12/04:
+#### Week 14: Video & Face Tracking on the Web
+* ##### Mon 11/25:
+    * Objects & Particles
+    * Final Project Lab Time
+* ##### Wed 11/27:
+    * THANKSGIVING NO CLASS
 
-#### Week 15:
-##### Mon 12/09:
-##### Wed 12/11:
+#### Week 15: CRIT WEEK
+* ##### Mon 12/02:
+    * CRIT WEEK NO CLASS
+* ##### Wed 12/04:
+    * CRIT WEEK NO CLASS
 
-#### Week 16:
-##### Mon 12/16:
+#### Week 16: Server-side Node.js & Real-time Web
+* ##### Mon 12/09:
+    * Work on Final Projects
+* ##### Wed 12/11:
+    * Final Critiques
+
+#### Week 17: Last class!
+* ##### Mon 12/16:
+    * Bonus Lecture!
 
 
-Week 3 (09/12, 09/14): Hosting & CSS
-Week 4 (09/19, 09/21): Advanced CSS
-Week 5 (09/26, 09/28): Animations & Transitions
-Week 6 (10/03, 10/05): Advanced CSS & JS Basics
-Week 7 (10/10, 10/12): DOM Manipulation, Loops, Arrays
-Week 8 (10/17, 10/19): DOM Manipulation & JS/CSS Browser Extensions
-Week 9 (10/24, 10/26): JS/CSS Browser Extensions & Midterm Critiques
 Week 10 (10/31, 11/02): JS Functions & p5.js
 Week 11 (11/07, 11/09): Creative Coding in p5.js
 Week 12 (11/14, 11/16): Getting Data & Project Proposals
