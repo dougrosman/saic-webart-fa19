@@ -1,14 +1,14 @@
 # web art | ARTTECH 3900 – SYLLABUS
 ### PROFPRAC 3900 Professional Practice: Web-Art
 __CREDITS:__ 3 <br>
-__SEMESTER:__ Fall 2019 | Wed Aug 28, 2019 – Wed Dec 11, 2019 <br>
+__SEMESTER:__ Fall 2019 | Wed Aug 28, 2019 – Mon Dec 16, 2019 <br>
 __MEETING DAYS/TIMES:__ Mondays + Wednesdays, 6pm – 9pm <br>
 __LOCATION:__ MacLean 401 <br>
 __INSTITUTION:__ The School of the Art Institute of Chicago <br>
 
 #### INSTRUCTOR
 Doug Rosman, Lecturer | drosman@saic.edu | <a href="http://dougrosman.com" target="blank">dougrosman.com</a><br>
-Mentoring Hours: By appointment – send me an email <br>
+Mentoring Hours: In class, see course schedule. If you miss an in-class mentoring meeting, email me to schedule a make-up. <br>
 
 #### CLASS WEBSITE/MATERIALS
 Class Website: [https://dougrosman.github.io/saic-webart-fa19](https://dougrosman.github.io/saic-webart-fa19) <br>
@@ -20,12 +20,6 @@ SAIC Web Art FA19 | <a href="https://saic-webart-fa19.slack.com/" target="blank"
 
 ### COURSE DESCRIPTION
 **_Professional Practice: Web Art_** is a course that combines creative and practical knowledge related to web site development, and explores the history and culture of web art. Launched in 1989 as a remote file sharing system for scientists, the World Wide Web is now thirty years old. Today, the web functions as an exhibition space, a communications hub as well as a nexus for creative expression. Students in the Web Art class will learn the Hypertext Mark-Up Language (HTML), which is the basis of WWW authoring, as well as additional languages like CSS and Javascript to build varied websites. Potential overall format and conceptual frameworks for developing a media-rich website will be investigated, and ways of subverting the traditional web page format in order to create unique approaches to the dynamics of the web will be explored. Course activities include technical tutorials, preparing a résumé and CV, writing a project statement, creating a website, and critiquing projects.
-
-### Course Materials
-* A computer that can connect to the internet
-* Atom -a text editor– atom.io
-* Github desktop client
-
 
 ### COURSE GOALS
 ##### KEY GOALS INCLUDE:
@@ -40,25 +34,37 @@ SAIC Web Art FA19 | <a href="https://saic-webart-fa19.slack.com/" target="blank"
 Creatively deploy HTML, CSS and Javascript to create art on/for the web and with the web.
 * Build a critical framework for discussing your work in the wider context of internet art, net.art.
 
-### Course Texts
+### COURSE MATERIALS
+* A computer that can connect to the internet
+* <a href="https://atom.io/" target="blank">Atom</a> – a text editor
+* <a href="https://desktop.github.com" target="blank">GitHub desktop client</a>
+
+### COURSE TEXTS
 _These readings will be assigned in various weeks throughout the semester. Additional optional readings may be added as necessary._ <br>
-<a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="blank">_As We May Think_</a> – Vannevar Bush (1945) <br>
-<a href="https://www.scientificamerican.com/article/long-live-the-web/" target="blank"> _Long Live the Web: A Call for Continued Open Standards and Neutrality_ </a> – Tim Berners-Lee (2010) <br>
-<a href="http://easylife.org/netart/" target="blank">_Introduction to net.art (1994-1999)_</a> – Natalie Bookchin, Alexei Shulgin (1999) <br>
-Doug Rushkoff “Program or Be Programmed”
-Olia Lialina “Rich User Experience, UI, and Desktopization of War” http://contemporary-home-computing.org/RUE/
-Ethan Zuckerman “The Internet’s Original Sin” https://www.theatlantic.com/technology/archive/2014/08/advertising-is-the-internets-original-sin/376041/
-Optional:
-• Borges “Garden of Forking Paths”
-• Jer Thorp “On Data and Performance”
+1. <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="blank">_As We May Think_</a> – Vannevar Bush (1945) <br>
+2. <a href="https://www.scientificamerican.com/article/long-live-the-web/" target="blank"> _Long Live the Web: A Call for Continued Open Standards and Neutrality_ </a> – Tim Berners-Lee (2010) <br>
+3. <a href="http://easylife.org/netart/" target="blank">_Introduction to net.art (1994-1999)_</a> – Natalie Bookchin, Alexei Shulgin (1999) <br>
+4. <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf" target="blank">_Program or Be Programmed: Ten Commands for a Digital Age_</a> (Chapter 10) – Douglas Rushkoff (2010) <br>
+5. <a href="http://contemporary-home-computing.org/RUE/" target="blank">_Rich User Experience, UI, and Desktopization of War_</a> – Olia Lialina (2014) <br>
+6. <a href="https://www.theatlantic.com/technology/archive/2014/08/advertising-is-the-internets-original-sin/376041/" target="blank">_The Internet’s Original Sin_</a> – Ethan Zuckerman (2014)
+##### Optional:
+    1. Borges “Garden of Forking Paths”
+    2. Jer Thorp “On Data and Performance”
 
 ### ASSIGNMENTS
-The course will include workshops and several short-term projects, a long-term project, relevant technical and theoretical reading, written responses, and technical research. The assignments are designed to deepen understanding of the technical tools, as well as provide space to apply them towards aesthetic and artistic exploration.
+The course will include several short-term assignments, a midterm and final project, relevant technical and theoretical reading, and technical research. The assignments are designed to deepen understanding of the technical tools, as well as provide space to apply them towards aesthetic and artistic exploration. Professional Practices-oriented projects will also be included.
+
+1. Weekly Assignments
+1. Oral Presentation: 5 minute presentation on a web artist.
+1. Online Portfolio assignment
+1. Midterm Website Project
+1. Final Website Project Proposal + Final Project
+1. __Faculty Defined Creative Project:__ In addition to the final website project, the class will work collaboratively to create a single website: an online exhibition space to showcase all final website projects. The site will display the final projects, as well as provide curatorial framing for the body of work. Tasks such as web design, programming, descriptive writing and publicity will be distributed among students. Visiting curator/lecturer/arts administrator Matthew Mehlan will host a workshop to help develop an "online exhibition proposal."
 
 Assignments for each week will be listed at the end of each session's schedule. __Readings and assignments should be completed by the following session__, unless otherwise noted.
 
 ### ASSESSMENT AND GRADING
-Completed assignments will receive credit upon completion. __All assignments must be completed in order to receive credit for the course.__
+Assignments that satisfy . __All assignments must be completed in order to receive credit for the course.__
 
 ### COURSE SCHEDULE
 _Note: this is a living document. The course schedule/topics may evolve during the semester_
@@ -116,7 +122,7 @@ _Note: this is a living document. The course schedule/topics may evolve during t
     * __Assignment:__
         1. TBD
     * __Read:__
-        1. <a href="linktorushkoff" target="blank">Chapter 10 of _Program or Be Programmed: Ten Commands for a Digital Age_</a> – Douglas Rushkoff (2010)
+        1. <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf" target="blank">Chapter 10 of _Program or Be Programmed: Ten Commands for a Digital Age_</a> – Douglas Rushkoff (2010)
 
 #### Week 05: Animations & Transitions
 * ##### Mon 09/23:
