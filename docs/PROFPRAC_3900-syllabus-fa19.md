@@ -8,11 +8,17 @@ __INSTITUTION:__ The School of the Art Institute of Chicago <br>
 
 #### INSTRUCTOR
 Doug Rosman, Lecturer | drosman@saic.edu | <a href="http://dougrosman.com" target="blank">dougrosman.com</a><br>
-Mentoring Hours: In class, see course schedule. If you miss an in-class mentoring meeting, email me to schedule a make-up. <br>
+Mentoring Hours: In class, see course schedule. If you miss an in-class mentoring meeting, email me to schedule a make-up appointment. <br>
+
+#### EMAIL POLICY
+Whether you're a student or faculty, we are all inundated with emails. Sometimes they slip by me. If I don't respond to your email within 24 hours (or 12 if it's urgent), don't hesitate to give me a nudge. Just passive-aggressively reply to the original email you sent me with something along the lines of "psst. hey." I won't be offended or think you're needy :). That said, I'll only respond to emails between 8am-8pm. Boundaries are important!
+<br>
+
+Don't hesitate to reach out!
 
 #### CLASS WEBSITE/MATERIALS
 Class Website: [https://dougrosman.github.io/saic-webart-fa19](https://dougrosman.github.io/saic-webart-fa19) <br>
-<a href="https://saic.instructure.com/courses/2560557" target="blank">Canvas</a><br>
+<a href="https://saic.instructure.com/courses/2560557" target="blank">Canvas</a> (99% of course content will be in the class website above, but I will make announcements in Canvas, as that's a pretty good way to reach everyone. Grades and Attendance will also be recorded in Canvas).<br>
 <a href="http://www.saic.edu/academics/departments/academicspine/" target="blank">Spine webpage</a><br>
 
 #### SLACK CHANNEL
@@ -75,6 +81,9 @@ __In order to receive credit for this course:__<br>
 1. Complete Final Project
 1. Contribute to group exhibition website
 1. Attend both critiques
+
+### MENTORING
+As part of the Professional Practice curriculum, each student is required to meet one-on-one with me __3__ times over the course of the semester. These informal meetings will be around 5-10 minutes, and are meant to check in with your progress in the class. These meetings will begin around week 10 in the semester, and are included in the course schedule below. The class will be split into groups A and B, which designate which day you will be meeting with me. I will make sure to remind you ahead of each meeting.
 
 
 ### COURSE SCHEDULE
@@ -313,7 +322,7 @@ accommodations for holidays they might observe). <br>
 
 Show your faculty/classmates respect by coming to class on time every day.
 
-### Writing Center Information:
+### WRITING CENTER INFORMATION:
 Writing Center <br>
 Lakeview Building, 116 S. Michigan Ave., 10th Floor <br>
 writingcenter@saic.edu <br>
@@ -324,3 +333,12 @@ Schedule in advance: <a href="https://www.supersaas.com/schedule/saic/" target="
 Short-notice: Call 312.499.4138 to see if there are any openings <br>
 __Hours:__ Monday – Thursday: 9:00 AM - 7:15 PM, Friday: 9:00 AM - 5:15 PM<br>
 __Walk-in hours:__ Monday – Thursday: 4:15–7:15 PM
+
+### DIVERSITY STATEMENT:
+It is incredibly important that this class maintains a respectful, safe and inclusive environment. All students–regardless of their gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, ability, class, religion, culture, subculture, political opinion, age, skill level, occupation, or background–should feel the comfort we all deserve in order to thrive academically, artistically, and to thrive in general.
+<br>
+
+Additionally, in regard to different technical backgrounds and learning to code: everyone in this class brings a variety of artistic and technical skills to the table. That said, almost nobody learns how to code the same way, or at the same rate. It's safe to say that, generally, we all learn differently. So if you've never coded before, this class is a great place to start. If you find you're feeling discouraged, just remember that with each new error you encounter, you're becoming a better coder (although inevitably you'll encounter the same ones over and over again).
+<br>
+
+So please, don't hesitate to ask questions, or ask me to slow down, or to repeat something! I'm here to help!
