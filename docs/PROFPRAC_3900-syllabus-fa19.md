@@ -16,6 +16,10 @@ Whether you're a student or faculty, we are all inundated with emails. Sometimes
 
 Don't hesitate to reach out!
 
+### a note:
+It is important that this class maintains a respectful, safe and inclusive environment. We all should feel the comfort we all deserve in order to thrive academically and artistically. If you do not feel safe or heard, please, feel free to let me know.
+
+
 #### CLASS WEBSITE/MATERIALS
 Class Website: [https://dougrosman.github.io/saic-webart-fa19](https://dougrosman.github.io/saic-webart-fa19) <br>
 <a href="https://saic.instructure.com/courses/2560557" target="blank">Canvas</a> (99% of course content will be in the class website above, but I will make announcements in Canvas, as that's a pretty good way to reach everyone. Grades and Attendance will also be recorded in Canvas).<br>
@@ -49,7 +53,7 @@ Creatively deploy HTML, CSS and Javascript to create art on/for the web and with
 * <a href="https://desktop.github.com" target="blank">GitHub desktop client</a>
 
 ### COURSE TEXTS
-_These readings will be assigned in various weeks throughout the semester. Additional optional readings may be added as necessary._ <br>
+_These readings will be assigned in various weeks throughout the semester. Additional optional readings may be added._ <br>
 1. <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="blank">_As We May Think_</a> – Vannevar Bush (1945) <br>
 2. <a href="https://www.scientificamerican.com/article/long-live-the-web/" target="blank"> _Long Live the Web: A Call for Continued Open Standards and Neutrality_ </a> – Tim Berners-Lee (2010)
 3. <a href="http://easylife.org/netart/" target="blank">_Introduction to net.art (1994-1999)_</a> – Natalie Bookchin, Alexei Shulgin (1999)
@@ -96,8 +100,8 @@ As part of the Professional Practice curriculum, each student is required to mee
     * Introduction to Web Art
     * Getting set up
     * __Assignment:__
-        1. <a href="https://www.codecademy.com/learn/learn-the-command-line" target="blank">Command Line lessons 1-3 on Code Academy</a>
-        2. <a href="https://www.codecademy.com/learn/learn-git" target="blank">git lessons 1-4 on Code Academy</a>
+        1. <a href="https://www.codecademy.com/learn/learn-the-command-line" target="blank">Command Line lessons 1-3 on Code Academy</a> (__due: 09/09__)
+        2. <a href="https://www.codecademy.com/learn/learn-git" target="blank">git lessons 1-4 on Code Academy</a> (__due: 09/09__)
     * __Read:__
         1. <a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13" target="blank"> _Cult of Done Manifesto_ </a> – Bre Pettis (2009)
         1. <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="blank">_As We May Think_</a> – Vannevar Bush (1945)
@@ -106,15 +110,14 @@ As part of the Professional Practice curriculum, each student is required to mee
 
 #### Week 02: HTML Basics
 * ##### Mon 09/02: LABOR DAY NO CLASS
-* ##### Wed 09/04: HTML Basics (Substitute: <a href="http://nickbriz.com/" target="blank">Nick Briz</a>)
+* ##### Wed 09/04: History of the Internet/Web Art (Substitute: <a href="http://nickbriz.com/" target="blank">Nick Briz</a>)
     * Lists
     * Inline Text Elements
     * Semantic Markup
     * Multi-page Websites
     * Embedding Content
     * __Assignment:__
-        1. 5 (Simple) Websites!
-        2. 5-minute oral presentation: Web Artist
+        1. 5-minute oral presentation: Web Artist
 
 #### Week 03 Hosting & CSS
 * ##### Mon 09/09:
@@ -127,7 +130,7 @@ As part of the Professional Practice curriculum, each student is required to mee
     * IDs, Classes and Advanced Selectors
     * CSS Box Model
     * __Assignment:__
-        1. <a href="https://github.com/mikewesthad/saic-webart/raw/master/class-files/homework/Day02_Homework_DataDiary.pdf" target="blank">Data Diary</a>
+        1. 5 (Simple) Websites!
     * __Read:__
         1. <a href="https://www.scientificamerican.com/article/long-live-the-web/" target="blank"> _Long Live the Web: A Call for Continued Open Standards and Neutrality_ </a> – Tim Berners-Lee (2010)
 
@@ -140,7 +143,7 @@ As part of the Professional Practice curriculum, each student is required to mee
     * CSS Position
     * CSS Animation
     * __Assignment:__
-        1. Advanced CSS practice assignment
+        1. <a href="https://github.com/mikewesthad/saic-webart/raw/master/class-files/homework/Day02_Homework_DataDiary.pdf" target="blank">Data Diary</a>
     * __Read:__
         1. <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf" target="blank">Chapter 10 of _Program or Be Programmed: Ten Commands for a Digital Age_</a> – Douglas Rushkoff (2010)
 
@@ -202,8 +205,6 @@ As part of the Professional Practice curriculum, each student is required to mee
     * Midterm Lab Time
 * ##### Wed 10/23:
     * __Midterm Critiques__
-    * __Read:__
-        1. TBD
 
 #### Week 10: JS Functions & p5.js
 * ##### Mon 10/28:
@@ -334,11 +335,9 @@ Short-notice: Call 312.499.4138 to see if there are any openings <br>
 __Hours:__ Monday – Thursday: 9:00 AM - 7:15 PM, Friday: 9:00 AM - 5:15 PM<br>
 __Walk-in hours:__ Monday – Thursday: 4:15–7:15 PM
 
-### DIVERSITY STATEMENT:
-It is incredibly important that this class maintains a respectful, safe and inclusive environment. All students–regardless of their gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, ability, class, religion, culture, subculture, political opinion, age, skill level, occupation, or background–should feel the comfort we all deserve in order to thrive academically, artistically, and to thrive in general.
-<br>
+### Final Thoughts
 
-Additionally, in regard to different technical backgrounds and learning to code: everyone in this class brings a variety of artistic and technical skills to the table. That said, almost nobody learns how to code the same way, or at the same rate. It's safe to say that, generally, we all learn differently. So if you've never coded before, this class is a great place to start. If you find you're feeling discouraged, just remember that with each new error you encounter, you're becoming a better coder (although inevitably you'll encounter the same ones over and over again).
+Additionally, in regard to different technical backgrounds and learning to code: everyone in this class brings a variety of artistic and technical skills to the table. That said, almost nobody learns how to code the same way, or at the same rate. It's safe to say that, generally, we all learn differently. So if you've never coded before, this class is a great place to start. If you have coded before, we'll find ways to challenge you. If you find you're feeling discouraged, just remember that with each new error you encounter, you're becoming a better coder (although inevitably you'll encounter the same ones over and over again). That's all part of the fun though.
 <br>
 
 So please, don't hesitate to ask questions, or ask me to slow down, or to repeat something! I'm here to help!
