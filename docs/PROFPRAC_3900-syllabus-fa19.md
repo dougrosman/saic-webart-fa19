@@ -144,7 +144,7 @@ As part of the Professional Practice curriculum, each student is required to mee
 * CSS Position
 * CSS Animation
 * __Assignment:__
-    1. <a href="https://github.com/mikewesthad/saic-webart/raw/master/class-files/homework/Day02_Homework_DataDiary.pdf" target="blank">Data Diary</a>
+    1. Data Diary Project
 * __Read:__
     1. <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf" target="blank">Chapter 10 of _Program or Be Programmed: Ten Commands for a Digital Age_</a> – Douglas Rushkoff (2010)
 
