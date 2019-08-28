@@ -1,36 +1,77 @@
 # web art | ARTTECH 3900
 ## SESSION 01 – Aug 28, 2019
 
+###### TO-DO
+1. Finish skeleton schedule for the day
+2. push session01.md to website
+3. link deathtimer to page blocker
+4. print and cut out surveys
+5. finish readings i'm going to be assigning
+6. call dad
 
-* Introductions and class overview/structure of the class
-    * Go around the room...
-    * Fill out **experience surveys**
-* Context: A brief history and summary of Web Art/net.art/network art.
-    * Simple Net Art Diagram
-    * Rhizome's Net Art Anthology
-* Getting everyone set up
-    * Terminal/The Command Line!
-    * Atom/Text Editors
-    * git/GitHub/GitHub Pages
-    * Slack
-    * Bookmarks!
-* Intro to HTML
-    * What is HTML?
-    * Creating your first web page!
-    * The DOM (Document Object Model)
-    * W3 schools
+### Schedule
 
-##### Assignment
+#### First Half?
+0. https://www.cameronsworld.net/
+1. Attendance
+1. Anything cool?
+1. Self introduction
+1. Experience surveys
+1. Sylllabus
 
-**1. Do:** <a href="https://www.codecademy.com/learn/learn-the-command-line" target="blank">Command Line lessons 1-3 on Code Academy</a>
-* _Additional Command Line Resources:_
-    * [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial/basics)
-    * [A Command Line Crash Course](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course)
+#### Second Half?
 
-**2. Do:** <a href="https://www.codecademy.com/learn/learn-git" target="blank">git lessons 1-4 on Code Academy</a>
-* _Additional git/GitHub help:_ [YouTube Playlist: "Git and GitHub for Poets" by The Coding Train](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
+#### 1. A brief introduction to web art
+1. https://anthology.rhizome.org/simple-net-art-diagram
+1. http://wwwwwwwww.jodi.org/ (the code!)
+1. https://www.newrafael.com/websites/ (the browser!)
+    * “I would make a drawing and my uncle would say, ‘oh that’s a beautiful drawing can I buy it from you’ and he would give me a little change, but then I didn’t have the drawing anymore, so then I thought if I make prints--things like that--then at least I can have a copy. But then the Internet came around and I have a copy and the whole world has a copy. I think if you would tell Leonardo Da Vinci, there’s this magical box that anyone around the world can access and they can also talk to you and you can work with color and with sound and interaction and with movement and anytime of the day you can change whatever and anyone around the world can see it for free, I think he would be pretty excited.”
+1. https://wwwwwwwwwwwwwwwwwwwwww.bitnik.org/r/ (the network)!
+1. https://anthology.rhizome.org/
 
-**3. Read:**
-1. <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="blank">_As We May Think_</a> – Vannevar Bush (1945)
-2. <a href="http://easylife.org/netart/" target="blank">_Introduction to net.art (1994-1999)_</a> – Natalie Bookchin, Alexei Shulgin (1999)
-3. <a href="https://monoskop.org/images/c/c5/Greene_Rachel_2000_Web_Work_A_History_of_Internet_Art.pdf" target="blank">_Web Work: A History of Internet Art_</a>  – Rachel Greene (2000)
+#### 2. our first web page!
+* textedit
+* simple server
+
+#### 3. Getting comfortable with our tools = getting comfortable finding new ones!
+
+#### 4. getting set up!
+1. terminal/command line
+    * what is it?
+1. git/github (https://github.com/)
+    * what is it?
+    * create a student account
+    * github pages
+1. Slack (https://saic-webart-fa19.slack.com/)
+    * what is it?
+    * why use it? (references repository!)
+    * create an account with your @saic.edu email
+    * join the class slack channel
+1. Bookmarks! (Command+B)
+    1. Create a Bookmarks folder for "Web Art"
+    1. Class website (https://dougrosman.github.io/saic-webart-fa19)
+    2. GitHub (github.com/yourname)
+    3. Slack Channel
+
+1. VS code (https://code.visualstudio.com/)
+    1. Download
+    2. Extensions ––> search for "Live Server" (it should be by Ritwick Dey) and click 'install'
+    3. Once installed, got to settings (Gear icon in bottom left corner of screen) and set Files: Auto Save to "afterDelay." You can change the delay time if you'd like.
+
+#### 5. Homework
+* __Assignment:__
+    1. <a href="https://www.codecademy.com/learn/learn-the-command-line" target="blank">Command Line lessons 1-3 on Code Academy</a> (__due: 09/09__)
+    2. <a href="https://www.codecademy.com/learn/learn-git" target="blank">git lessons 1-4 on Code Academy</a> (__due: 09/09__)
+    * _Note: You're likely to have tons of questions about these! If you feel like you're struggling with these tutorials, fret not! We'll go over it in class on 09/09 when I'm back. The things in these tutorials will be repeated throughout the semester, so you'll have plenty of time to get comfortable with them :)_
+* __Read:__
+    1. <a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13" target="blank"> _Cult of Done Manifesto_ </a> – Bre Pettis (2009) (this one applies to all walks of creative life - just a good one to have handy)
+    1. <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="blank">_As We May Think_</a> – Vannevar Bush (1945)
+    1. <a href="http://easylife.org/netart/" target="blank">_Introduction to net.art (1994-1999)_</a> – Natalie Bookchin, Alexei Shulgin (1999)
+    1. <a href="https://monoskop.org/images/c/c5/Greene_Rachel_2000_Web_Work_A_History_of_Internet_Art.pdf" target="blank">_Web Work: A History of Internet Art_</a>  – Rachel Greene (2000)
+    * _Note: These readings are a good primer for Nick next Wednesday, please read them!_
+
+
+#### Keyboard shortcuts!
+
+* Command+B: Bookmark a page
+* Command+space: spotlight

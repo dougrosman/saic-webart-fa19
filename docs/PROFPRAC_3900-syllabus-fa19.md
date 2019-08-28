@@ -61,6 +61,7 @@ _These readings will be assigned in various weeks throughout the semester. Addit
 6. <a href="https://www.theatlantic.com/technology/archive/2014/08/advertising-is-the-internets-original-sin/376041/" target="blank">_The Internet’s Original Sin_</a> – Ethan Zuckerman (2014)
 7. <a href="https://anthology.rhizome.org/" target="blank">_Net Art Anthology_</a> – Rhizome (2017-2019)
 8. <a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13" target="blank"> _Cult of Done Manifesto_ </a> – Bre Pettis (2009)
+9. Real Life Mag 5G article (look coming soon)
 
 ### ASSIGNMENTS
 The course will include several short-term assignments, a midterm and final project, relevant technical and theoretical reading, and technical research. The assignments are designed to deepen understanding of the technical tools, as well as provide space to apply them towards aesthetic and artistic exploration. Professional Practices-oriented projects will also be included.
