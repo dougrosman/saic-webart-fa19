@@ -14,10 +14,9 @@
 #### Second Half?
 
 #### 1. A brief introduction to web art
-1. https://anthology.rhizome.org/simple-net-art-diagram
-1. http://wwwwwwwww.jodi.org/ (the code!)
-1. https://www.newrafael.com/websites/ (the browser!)
-    * “I would make a drawing and my uncle would say, ‘oh that’s a beautiful drawing can I buy it from you’ and he would give me a little change, but then I didn’t have the drawing anymore, so then I thought if I make prints--things like that--then at least I can have a copy. But then the Internet came around and I have a copy and the whole world has a copy. I think if you would tell Leonardo Da Vinci, there’s this magical box that anyone around the world can access and they can also talk to you and you can work with color and with sound and interaction and with movement and anytime of the day you can change whatever and anyone around the world can see it for free, I think he would be pretty excited.”
+1. <a href="https://anthology.rhizome.org/simple-net-art-diagram" target="blank">https://anthology.rhizome.org/simple-net-art-diagram</a>
+1. <a href="http://wwwwwwwww.jodi.org/" target="blank">http://wwwwwwwww.jodi.org/</a> (the code!)
+1. <a href="https://www.newrafael.com/websites/" target="blank">https://www.newrafael.com/websites/</a>(the browser!)
 1. <a href="https://wwwwwwwwwwwwwwwwwwwwww.bitnik.org/r/" target="blank">https://wwwwwwwwwwwwwwwwwwwwww.bitnik.org/r/</a> (the network)!
 1. <a href="https://anthology.rhizome.org/" target="blank">https://anthology.rhizome.org/</a>
 
