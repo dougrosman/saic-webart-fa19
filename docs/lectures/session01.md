@@ -1,23 +1,15 @@
 # web art | ARTTECH 3900
 ## SESSION 01 – Aug 28, 2019
 
-###### TO-DO
-1. Finish skeleton schedule for the day
-2. push session01.md to website
-3. link deathtimer to page blocker
-4. print and cut out surveys
-5. finish readings i'm going to be assigning
-6. call dad
-
 ### Schedule
 
 #### First Half?
-0. https://www.cameronsworld.net/
+0. <a href="https://www.cameronsworld.net/" target="blank">https://www.cameronsworld.net/</a>
 1. Attendance
 1. Anything cool?
 1. Self introduction
 1. Experience surveys
-1. Sylllabus
+1. Go over silly bus
 
 #### Second Half?
 
@@ -26,8 +18,8 @@
 1. http://wwwwwwwww.jodi.org/ (the code!)
 1. https://www.newrafael.com/websites/ (the browser!)
     * “I would make a drawing and my uncle would say, ‘oh that’s a beautiful drawing can I buy it from you’ and he would give me a little change, but then I didn’t have the drawing anymore, so then I thought if I make prints--things like that--then at least I can have a copy. But then the Internet came around and I have a copy and the whole world has a copy. I think if you would tell Leonardo Da Vinci, there’s this magical box that anyone around the world can access and they can also talk to you and you can work with color and with sound and interaction and with movement and anytime of the day you can change whatever and anyone around the world can see it for free, I think he would be pretty excited.”
-1. https://wwwwwwwwwwwwwwwwwwwwww.bitnik.org/r/ (the network)!
-1. https://anthology.rhizome.org/
+1. <a href="https://wwwwwwwwwwwwwwwwwwwwww.bitnik.org/r/" target="blank">https://wwwwwwwwwwwwwwwwwwwwww.bitnik.org/r/</a> (the network)!
+1. <a href="https://anthology.rhizome.org/" target="blank">https://anthology.rhizome.org/</a>
 
 #### 2. our first web page!
 * textedit
@@ -37,23 +29,24 @@
 
 #### 4. getting set up!
 1. terminal/command line
+    * spotlight search!
     * what is it?
-1. git/github (https://github.com/)
+1. git/github (<a href="https://github.com/" target="blank">https://github.com/</a>)
     * what is it?
     * create a student account
     * github pages
-1. Slack (https://saic-webart-fa19.slack.com/)
+1. Slack (<a href="https://saic-webart-fa19.slack.com/" target="blank">https://saic-webart-fa19.slack.com/)</a>
     * what is it?
     * why use it? (references repository!)
     * create an account with your @saic.edu email
     * join the class slack channel
 1. Bookmarks! (Command+B)
     1. Create a Bookmarks folder for "Web Art"
-    1. Class website (https://dougrosman.github.io/saic-webart-fa19)
-    2. GitHub (github.com/yourname)
+    1. Class website (<a href="https://dougrosman.github.io/saic-webart-fa19" target="blank">https://dougrosman.github.io/saic-webart-fa19)</a>
+    2. GitHub (github.com/youraccountname)
     3. Slack Channel
 
-1. VS code (https://code.visualstudio.com/)
+1. VS code (Visual Studio Code) (<a href="https://code.visualstudio.com/" target="blank">https://code.visualstudio.com/)</a>
     1. Download
     2. Extensions ––> search for "Live Server" (it should be by Ritwick Dey) and click 'install'
     3. Once installed, got to settings (Gear icon in bottom left corner of screen) and set Files: Auto Save to "afterDelay." You can change the delay time if you'd like.
