@@ -358,6 +358,11 @@ Short-notice: Call 312.499.4138 to see if there are any openings <br>
 __Hours:__ Monday – Thursday: 9:00 AM - 7:15 PM, Friday: 9:00 AM - 5:15 PM<br>
 __Walk-in hours:__ Monday – Thursday: 4:15–7:15 PM
 
+### EMERGENCIES:
+
+Should you need to contact Campus Security, in case of an emergency regarding a student, please call the 24-hour emergency number, 312.899.1230.
+
+
 ### Final Thoughts
 
 Additionally, in regard to different technical backgrounds and learning to code: everyone in this class brings a variety of artistic and technical skills to the table. That said, almost nobody learns how to code the same way, or at the same rate. It's safe to say that, generally, we all learn differently. So if you've never coded before, this class is a great place to start. If you have coded before, we'll find ways to challenge you. If you find you're feeling discouraged, just remember that with each new error you encounter, you're becoming a better coder (although inevitably you'll encounter the same ones over and over again). That's all part of the fun though.
