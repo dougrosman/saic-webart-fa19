@@ -99,7 +99,7 @@ As part of the Professional Practice curriculum, each student is required to mee
 * Syllabus
 * Introduction to Web Art
 * Getting set up
-* __Assignment:__
+* __Assignment: (UPDATED 08/29)__
     1. <a href="https://www.codecademy.com/learn/learn-the-command-line" target="blank">Command Line lessons 1-3 on Code Academy</a> (__due: 09/09__)
     2. <a href="https://www.codecademy.com/learn/learn-git" target="blank">git lessons 1-4 on Code Academy</a> (__due: 09/09__)
     * _Note 1: when you first create an account on Code Academy, it'll put you in the 7-day trial of a "Pro" account. Don't worry, all the lessons on CodeAcademy are free even after that expires. Pro just offers extra features we won't need._
