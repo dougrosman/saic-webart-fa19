@@ -1,4 +1,9 @@
 # web art | ARTTECH 3900
+___
+<a href="../" target="blank">Home</a>
+<a href="lectures/session01" target="blank">Session 01 - 08/28/19</a>
+<a href="lectures/session02" target="blank">Session 02 - 09/04/19</a>
+___
 ## SESSION 01 – Aug 28, 2019
 
 ### Schedule
