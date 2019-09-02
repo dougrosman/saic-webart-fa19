@@ -1,8 +1,8 @@
 # web art | ARTTECH 3900 | SESSION 02 – Sep 4, 2019
 ___
 <a href="../">Home</a><br>
-<a href="/session01">Session 01 - 08/28/19</a><br>
-<a href="/session02">Session 02 - 09/04/19</a><br>
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session01">Session 01 - 08/28/19</a><br>
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">Session 02 - 09/04/19</a><br>
 
 ___
 

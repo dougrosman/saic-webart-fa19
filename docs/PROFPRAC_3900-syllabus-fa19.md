@@ -94,7 +94,7 @@ As part of the Professional Practice curriculum, each student is required to mee
 
 
 #### Week 01: Introductions & HTML
-##### Wed 08/28
+##### <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session01">Wed 08/28</a>
 * Introductions
 * Syllabus
 * Introduction to Web Art
@@ -113,7 +113,7 @@ As part of the Professional Practice curriculum, each student is required to mee
 
 #### Week 02: HTML Basics
 ##### Mon 09/02: LABOR DAY NO CLASS
-##### Wed 09/04: History of the Internet/Web Art (Substitute: <a href="http://nickbriz.com/" target="blank">Nick Briz</a>)
+##### <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">Wed 09/04: History of the Internet/Web Art</a> (Substitute: <a href="http://nickbriz.com/" target="blank">Nick Briz</a>) (Updated 09/02)
 * What is the Internet?
 * Why is the Internet?
 * HTML basics
