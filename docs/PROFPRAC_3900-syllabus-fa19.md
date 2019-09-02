@@ -118,7 +118,7 @@ As part of the Professional Practice curriculum, each student is required to mee
 * Why is the Internet?
 * HTML basics
 * __Assignment:__
-    1. 5-minute oral presentation: Web Artist
+    1. __Net Art Oral Presentation (<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">click here for all assignment info)</a>:__ TL;DR: By Monday 09/09, pick two artists and works and <a href="https://docs.google.com/document/d/18vdFCXMbA0mN2oKW-Y_oQW-1tXE1L4_r30MJCHNqAZk/edit?usp=sharing" target="blank">POST THEM ON THIS GOOGLE DOC</a>. By Wednesday 09/11, finish your website so that you can present from it. We'll work on our websites together in class on Monday 09/09.
 
 #### Week 03 Hosting & CSS
 
