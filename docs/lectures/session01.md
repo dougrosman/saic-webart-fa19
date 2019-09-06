@@ -55,12 +55,17 @@ ___
     2. Extensions ––> search for "Live Server" (it should be by Ritwick Dey) and click 'install'
     3. Once installed, got to settings (Gear icon in bottom left corner of screen) and set Files: Auto Save to "afterDelay." You can change the delay time if you'd like.
 
-#### 5. Homework
+#### 5. Homework (Updated 09/06/19)
 * __Assignment:__
-    1. <a href="https://www.codecademy.com/learn/learn-the-command-line" target="blank">Command Line lessons 1-3 on Code Academy</a> (__due: 09/09__)
-    2. <a href="https://www.codecademy.com/learn/learn-git" target="blank">git lessons 1-4 on Code Academy</a> (__due: 09/09__)
-    * _Note 1: when you first create an account on Code Academy, it'll put you in the 7-day trial of a "Pro" account. Don't worry, all the lessons on CodeAcademy are free even after that expires. Pro just offers extra features we won't need._
-    * _Note 2: You're likely to have tons of questions about these! If you feel like you're struggling with these tutorials, fret not! We'll go over it in class on 09/09 when I'm back. The things in these tutorials will be repeated throughout the semester, so you'll have plenty of time to get comfortable with them :)_
+_**Note 1 (09/06/19):**_ Code Academy changed their pay structure it seems, so now some lessons are 'PRO' lessons that can only be done with a pro account. So if your 7-day trial ran out and you haven't completed the tutorials, I've included two new resources for git and command line for you to complete. Because of this, I'll extend the due date for this to __Wednesday 09/11.__ I'm not checking this assignment, it's for your benefit to complete them.
+    
+1. <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV" target="blank"> GitHub for Poets (1.2 – 1.7) </a> (This includes tutorials for both git and command line!)
+    * _Note 2: You're likely to have tons of questions about these! If you feel like you're struggling with these tutorials, fret not! We'll go over it in class on 09/09 (and now also Wednesday 09/11) when I'm back. The things in these tutorials will be repeated throughout the semester, so you'll have plenty of time to get comfortable with them :)_
+* _**bonus**_:<a href="https://www.learnenough.com/command-line-tutorial/basics" target="blank"> Learn Enough Command Line to be Dangerous</a> If you want more command line!
+    
+
+<s><a href="https://www.codecademy.com/learn/learn-the-command-line" target="blank">Command Line lessons 1-3 on Code Academy</a> (__due: 09/09__)
+<a href="https://www.codecademy.com/learn/learn-git" target="blank">git lessons 1-4 on Code Academy</a> (__due: 09/09__)</s>
 * __Read:__
     1. <a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13" target="blank"> _Cult of Done Manifesto_ </a> – Bre Pettis (2009) (this one applies to all walks of creative life - just a good one to have handy)
     1. <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="blank">_As We May Think_</a> – Vannevar Bush (1945)

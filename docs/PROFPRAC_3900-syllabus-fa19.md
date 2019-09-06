@@ -93,16 +93,15 @@ As part of the Professional Practice curriculum, each student is required to mee
 ### COURSE SCHEDULE
 
 
-#### Week 01: Introductions & HTML
-##### <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session01">Wed 08/28</a>
+#### Week 01: Introductions & HTML (updated 09/06/19)
+##### <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session01">Click here for the Wed 08/28 page</a>
 * Introductions
 * Syllabus
 * Introduction to Web Art
 * Getting set up
 * __Assignment: (UPDATED 08/29)__
-    1. <a href="https://www.codecademy.com/learn/learn-the-command-line" target="blank">Command Line lessons 1-3 on Code Academy</a> (__due: 09/09__)
-    2. <a href="https://www.codecademy.com/learn/learn-git" target="blank">git lessons 1-4 on Code Academy</a> (__due: 09/09__)
-    * _Note 1: when you first create an account on Code Academy, it'll put you in the 7-day trial of a "Pro" account. Don't worry, all the lessons on CodeAcademy are free even after that expires. Pro just offers extra features we won't need._
+1. <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV" target="blank"> GitHub for Poets (1.2 – 1.7) </a> (This includes tutorials for both git and command line!) (__due: 09/011__)
+    * _Note 1: Code Academy changed their pay structure it seems, so now some lessons are 'PRO' lessons that can only be done with a pro account. So if your 7-day trial ran out and you haven't completed the tutorials, I've included two new resources for git and command line for you to complete. Because of this, I'll extend the due date for this to __Wednesday 09/11.__ I'm not checking this assignment, it's for your benefit to complete them_
     * _Note 2: You're likely to have tons of questions about these! If you feel like you're struggling with these tutorials, fret not! We'll go over it in class on 09/09 when I'm back. The things in these tutorials will be repeated throughout the semester, so you'll have plenty of time to get comfortable with them :)_
 * __Read:__
     1. <a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13" target="blank"> _Cult of Done Manifesto_ </a> – Bre Pettis (2009) (this one applies to all walks of creative life - just a good one to have handy)
