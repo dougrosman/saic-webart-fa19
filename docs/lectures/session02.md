@@ -20,8 +20,45 @@ ___
 1. Web art/net.art Histories
 1. HTML basics
 
-### [Homework](#homework)
+### <a id="homework"></a> Homework: ####
 
+### _Net Art Oral Presentation_ ####
+__TL;DR: By Monday 09/09, pick two artists and works and <a href="https://docs.google.com/document/d/18vdFCXMbA0mN2oKW-Y_oQW-1tXE1L4_r30MJCHNqAZk/edit?usp=sharing" target="blank">POST THEM ON THIS GOOGLE DOC</a>. By Wednesday 09/11, finish your website so that you can present from it. We'll work on our websites together in class on Monday 09/09__
+
+##### Summary:
+Craft a 6-8 minute oral presentation on two works of net.art from Rhizome's <a href="https://anthology.rhizome.org" target="blank"> NET ART ANTHOLOGY </a>.
+
+##### Description:
+There's so much to learn about the web—how does it work? How do we develop for it? How has it shaped our culture? etc.
+
+Web artists confront all these questions (and more) in a variety of ways, so why not learn about the web through the art that's been made with it/on it/about it?
+
+As a quick way to scratch the surface of net.art's history, each of you will present on two net.art/web artists and art works. These brief presentations are designed to emphasize a broad exposure to topics and artists we'll explore more deeply throughout the semester.
+
+Rhizome.org's recently-completed <a href="https://anthology.rhizome.org" target="blank"> NET ART ANTHOLOGY </a> is a great place to find works, as well as information about them. You are not limited to this repository for finding net.art works; feel free to look elsewhere, or present on a favorite work you might already have!
+
+##### Requirements:
+1. __Due Monday 09/09:__ Select two artists and a work from each artist for your presentation, and  <a href="https://docs.google.com/document/d/18vdFCXMbA0mN2oKW-Y_oQW-1tXE1L4_r30MJCHNqAZk/edit?usp=sharing" target="blank">POST THEM ON THIS GOOGLE DOC</a>. (You may not choose an artist or work that somebody else has already chosen, so the sooner you post here, the better chance you'll have to present on the artists/works you want! (Follow my example on the Google Doc))
+2. __Due Wednesday 09/11:__ Your "_presentation website_." We're going to skip the usual Powerpoint presentation and make websites to present from! Just some simple HTML/CSS. __We will work on these in class on Monday, 09/09.__
+* __minimum requirements:__
+    * 3 pages (a home page, a page for artist/work 1, a page for artist/work 2)
+    * Each page links to each other page
+    * Links to the works about which you are presenting.
+    * text and images on each page, enough stuff for you to talk about for 6-8 minutes.
+    * the website is hosted on GitHub Pages
+3. __Due Wednesday 09/11:__ The presentation itself! You'll be reading off of/showing images from the website you create. Here are some questions to guide your presentation/things you might want to include for each artist/work:
+    * Artist Name/where they are based
+    * Work Name/year it was created
+    * Images of the work
+    * How is the website designed/how does it work?
+    * How is the artist using the web for this work?
+    * How/why is the web integral to this work as a medium? Put another way, could this work exist without the Internet?
+    * Why did you pick it?
+
+*Phew*. That's a lot.
+__TL;DR: By Monday 09/09, pick two artists and works and <a href="https://docs.google.com/document/d/18vdFCXMbA0mN2oKW-Y_oQW-1tXE1L4_r30MJCHNqAZk/edit?usp=sharing" target="blank">POST THEM ON THIS GOOGLE DOC</a>. By Wednesday 09/11, finish your website so that you can present from it. We'll work on our websites together in class on Monday 09/09__
+
+___
 
 # What / How / Where is the Internet?
 
