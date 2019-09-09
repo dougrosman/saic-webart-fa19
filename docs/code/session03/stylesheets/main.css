@@ -6,11 +6,24 @@ pre, code {
   }
   pre > code {
     display: block;
-    padding: 1rem;
+    padding: 2rem;
     word-wrap: normal;
   }
 
+  h1 {
+    font-family: Arial;
+    color: green;
+  }
+
   p {
-    color: red;
-    text-align: center;
+    font-family: Arial;
+    color: blue;
+    /* text-align: center; */
+  }
+
+  #testdiv {
+    p {
+      color: purple;
+    }
+    
   }

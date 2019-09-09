@@ -13,9 +13,10 @@ ___
 1. Command Line review
 1. git/GitHub review
 1. Create Web Art repository on GitHub
+1. Enable GitHub pages for repo
 1. Clone Repo to local machine
 1. VS code review
-1. Learn some HTML/CSS!
+1. Learn some HTML/CSS! <br>
     –Break–
 1. Work on Artist Presentation websites
 
@@ -27,7 +28,7 @@ ___
 
 ___
 
-#### Command Line Review
+## Command Line Review
 * Tab completion
 * Arrow key navigation
     * Use side arrows to move cursor
@@ -49,29 +50,54 @@ $ history   // view 1000 recent command line entries
 $ clear     // clears the page (also cmd+k)
 ```
 
-#### git/GitHub Review
+## git/GitHub Review
 * Configuring config file for your GitHub account (only do commands that have a '$' in front of them)
-```
-// test the credential-osxkeychain function
-$ git credential-osxkeychain
-> Usage: git credential-osxkeychain <get|store|erase>
+    ```
+    // test the credential-osxkeychain function
+    $ git credential-osxkeychain
+    > Usage: git credential-osxkeychain <get|store|erase>
 
-// set your keychain to store your github password
-$ git config --global credential.helper osxkeychain       
+    // set your keychain to store your github password
+    $ git config --global credential.helper osxkeychain       
 
-// set your username ()
-$ git config --global user.name "Your Name"
+    // set your username ()
+    $ git config --global user.name "Your Name"
 
-// set your email address
-$ git config --global user.email youremail@saic.edu
+    // set your email address
+    $ git config --global user.email youremail@saic.edu
 
-// If you're on a school computer
-$ cd path/to/your/repo
-$ git config user.name "User Name"
-$ git config user.email "youremail@saic.edu"
-```
+    // If you're on a school computer
+    $ cd path/to/your/repo
+    $ git config user.name "User Name"
+    $ git config user.email "youremail@saic.edu"
+    ```
 * Creating Repos
 * Cloning Repos
+* Making changes to documents
+    ```
+    $ git add
+    $ git commit -m "brief summary of changes (present tense)"
+    $ git push
+    ```
+
+## Create Web Art repository on GitHub
+ ok
+
+## Enable GitHub pages for repo
+## Clone Repo to local machine
+## VS code review
+## Learn some HTML/CSS!
+* HTML skeleton (html/head/title/body)
+* tags/elements
+* lists
+* images
+* 
+* Validate your HTML: <a href="https://validator.w3.org/#validate_by_input" target="blank">https://validator.w3.org/#validate_by_input</a>
+
+<br>
+    –Break–
+1. Work on Artist Presentation websites
+
 
 
 
