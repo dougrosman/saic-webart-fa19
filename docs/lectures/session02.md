@@ -279,7 +279,7 @@ __TL;DR: By Monday 09/09, pick two artists and works and <a href="https://docs.g
 ___
 
 __(Reminder):__
-    **Note 1 (09/06/19):**_ Code Academy changed their pay structure it seems, so now some lessons are 'PRO' lessons that can only be done with a pro account. So if your 7-day trial ran out and you haven't completed the tutorials, I've included two new resources for git and command line for you to complete. Because of this, I'll extend the due date for this to __Wednesday 09/11.__ I'm not checking this assignment, it's for your benefit to complete them.
+    **Note 1 (09/09/19):**_ Code Academy changed their pay structure it seems, so now some lessons are 'PRO' lessons that can only be done with a pro account. So if your 7-day trial ran out and you haven't completed the tutorials, I've included two new resources for git and command line for you to complete. Because of this, I'll extend the due date for this to __Wednesday 09/11.__ I'm not checking this assignment, it's for your benefit to complete them.
     
 1. <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV" target="blank"> GitHub for Poets (1.2 – 1.7) </a> (This includes tutorials for both git and command line!)
     * _Note 2: You're likely to have tons of questions about these! If you feel like you're struggling with these tutorials, fret not! We'll go over it in class on 09/09 (and now also Wednesday 09/11) when I'm back. The things in these tutorials will be repeated throughout the semester, so you'll have plenty of time to get comfortable with them :)_
