@@ -239,7 +239,7 @@ or simply type that same URL into the address bar of a browser.
 
 ___
 
-#### <a id="homework"></a> Homework:
+#### <a id="homework"></a> Homework: ####
 
 ### _Net Art Oral Presentation_ ####
 __TL;DR: By Monday 09/09, pick two artists and works and <a href="https://docs.google.com/document/d/18vdFCXMbA0mN2oKW-Y_oQW-1tXE1L4_r30MJCHNqAZk/edit?usp=sharing" target="blank">POST THEM ON THIS GOOGLE DOC</a>. By Wednesday 09/11, finish your website so that you can present from it. We'll work on our websites together in class on Monday 09/09__
