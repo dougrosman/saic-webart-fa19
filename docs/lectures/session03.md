@@ -91,7 +91,9 @@ $ clear     // clears the page (also cmd+k)
 * tags/elements
 * lists
 * images
-* 
+* embedding
+* escape characters
+* more things
 * Validate your HTML: <a href="https://validator.w3.org/#validate_by_input" target="blank">https://validator.w3.org/#validate_by_input</a>
 
 <br>
