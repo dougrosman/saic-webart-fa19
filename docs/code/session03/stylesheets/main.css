@@ -1,4 +1,4 @@
-pre, code {
+/* pre, code {
     font-family: monospace, monospace;
   }
   pre {
@@ -8,7 +8,7 @@ pre, code {
     display: block;
     padding: 2rem;
     word-wrap: normal;
-  }
+  } */
 
   h1 {
     font-family: Arial;
@@ -17,13 +17,10 @@ pre, code {
 
   p {
     font-family: Arial;
-    color: blue;
+    color: black;
     /* text-align: center; */
   }
 
-  #testdiv {
-    p {
-      color: purple;
-    }
-    
+  #formatted {
+    color: purple;
   }
