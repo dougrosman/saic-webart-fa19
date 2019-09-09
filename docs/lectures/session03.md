@@ -77,7 +77,7 @@ $ git config user.email "youremail@saic.edu"
 
 
 #### code for running a python server.
-Open a terminal an navigate to the folder you want to serve:
+Open a terminal and navigate to the folder you want to serve:
 ```bash
 cd path/to/folder
 ```
