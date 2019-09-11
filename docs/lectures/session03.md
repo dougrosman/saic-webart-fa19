@@ -1,9 +1,9 @@
 # web art | ARTTECH 3900 | SESSION 03: Beginning HTML/CSS | Sep 9, 2019
 ___
 <a href="../">Home</a><br>
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session01">Session 01 - 08/28/19</a> | 
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">Session 02 - 09/04/19</a> | 
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session03">Session 03 - 09/09/19</a> | 
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session01">Session 01 - 08/28/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">Session 02 - 09/04/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session03">Session 03 - 09/09/19</a> |
 
 ___
 
@@ -48,6 +48,8 @@ $ cp    // copy file from one directory to another
     -r      // (recursively copy) copy a folder and all the files inside it to a new directory
 $ history   // view 1000 recent command line entries
 $ clear     // clears the page (also cmd+k)
+$ cd ~      // change directory to home directory
+$ touch filename.txt    // create a txt file (replace 'filename' with whatever you want to anme the file)
 ```
 
 ## git/GitHub Review
@@ -96,9 +98,19 @@ $ clear     // clears the page (also cmd+k)
 * more things
 * Validate your HTML: <a href="https://validator.w3.org/#validate_by_input" target="blank">https://validator.w3.org/#validate_by_input</a>
 
-<br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+## in class notes
+* HTML: hypertext markup language
+* CSS: Cascading Style Sheet
+
+* inline Elements/block elements
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
     –Break–
 1. Work on Artist Presentation websites
+
 
 
 
@@ -126,4 +138,3 @@ python --version
 
 <a href="https://blog.teamtreehouse.com/use-html5-sectioning-elements" target="blank">HTML5 Sectioning Elements</a><br>
 <a href="https://www.w3schools.com/charsets/" target="blank">HTML5 Character Sets</a><br>
-
