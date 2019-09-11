@@ -24,7 +24,7 @@ ___
 
 ### Homework:
 
-1. Complete Net Art Presentation website to present on Wednesday 09/11
+1. Work on Net Art Presentation website to present on Monday 09/16
 
 ___
 
