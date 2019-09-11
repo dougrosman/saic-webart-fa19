@@ -117,7 +117,7 @@ As part of the Professional Practice curriculum, each student is required to mee
 * Why is the Internet?
 * HTML basics
 * __Assignment:__
-    1. __Net Art Oral Presentation (<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">click here for all assignment info)</a>:__ TL;DR: By Monday 09/09, pick two artists and works and <a href="https://docs.google.com/document/d/18vdFCXMbA0mN2oKW-Y_oQW-1tXE1L4_r30MJCHNqAZk/edit?usp=sharing" target="blank">POST THEM ON THIS GOOGLE DOC</a>. By Wednesday 09/11, finish your website so that you can present from it. We'll work on our websites together in class on Monday 09/09.
+    1. __Net Art Oral Presentation (<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">click here for all assignment info)</a>:__ TL;DR: By Monday 09/09, pick two artists and works and <a href="https://docs.google.com/document/d/18vdFCXMbA0mN2oKW-Y_oQW-1tXE1L4_r30MJCHNqAZk/edit?usp=sharing" target="blank">POST THEM ON THIS GOOGLE DOC</a>. By Monday 09/16, finish your website so that you can present from it. We'll work on our websites together in class on Wednesday 09/11.
 
 #### Week 03 Hosting & CSS
 
@@ -132,13 +132,14 @@ As part of the Professional Practice curriculum, each student is required to mee
 * IDs, Classes and Advanced Selectors
 * CSS Box Model
 * __Assignment:__
-    1. 5 (Simple) Websites!
+    
 * __Read:__
     1. <a href="https://www.scientificamerican.com/article/long-live-the-web/" target="blank"> _Long Live the Web: A Call for Continued Open Standards and Neutrality_ </a> – Tim Berners-Lee (2010)
 
 #### Week 04: Advanced CSS
 
 ##### Mon 09/16:
+* Artist Presentations
 * CSS Box Model
 * Horizontal Centering
 * Grids with Inline-Block
