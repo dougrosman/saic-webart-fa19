@@ -25,6 +25,7 @@ Here's a list of web development and creative coding resources. I'll be adding t
 #### General Coding
 * <a href="https://learn.freecodecamp.org" target="blank">Free Code Camp</a> – Great guided tutorials in HTML/CSS/Javascript and more
 * <a href="https://www.youtube.com/user/shiffman" target="blank">The Coding Train (YouTube Channel)</a> – The Coding Train covers A TON of creative coding topics, mostly for P5.js, but there's some basic web stuff in there too.
+* <a href="https://code.tutsplus.com/tutorials/30-css-best-practices-for-beginners--net-6741" target="blank">30 CSS Best Practices for Beginners</a> – Just some good tips for once you get a bit more comfortable with your code.
 
 #### CSS Tools
 * <a href="https://cubic-bezier.com" target="blank">Cubic Bezier Curve Generator</a> – Create and test out animation timings/easings in real time using Cubic Bezier Curves!
