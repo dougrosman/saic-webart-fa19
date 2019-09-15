@@ -13,6 +13,9 @@ a:hover {
 a:visited {
     color: purple;
 }
+a:active {
+    color: yellow;
+}
 </style>
 
 
