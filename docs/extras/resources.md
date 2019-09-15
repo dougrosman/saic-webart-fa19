@@ -1,5 +1,8 @@
-# Web Development Resources
 <style>
+h1 {
+    font-size: 0px;
+}
+
 p {
     color: gray;
 }
@@ -18,6 +21,7 @@ a:active {
 }
 </style>
 
+## Web Development Resources
 
 Here's a list of web development and creative coding resources. I'll be adding to this over time!
 
