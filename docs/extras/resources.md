@@ -1,4 +1,14 @@
 # Web Development Resources
+<style>
+p {
+    color: gray;
+}
+
+a:link {
+    color: green;
+}
+</style>
+
 
 Here's a list of web development and creative coding resources. I'll be adding to this over time!
 
