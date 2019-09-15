@@ -11,10 +11,10 @@ a:hover {
     color: cyan;
 }
 a:visited {
-    color: purple;
+    color: #b50e75;
 }
 a:active {
-    color: yellow;
+    color: #2b9e46;
 }
 </style>
 
