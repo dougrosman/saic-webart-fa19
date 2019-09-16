@@ -27,6 +27,6 @@ ___
 
 ###### Do:
 1. Reading response: Write down one question you have from the readings (just a single question, not one for each reading). We'll discuss briefly in class. <strong>(Due: Monday 09/23/19)</strong>
-2. Tutorials: Complete all tutorials in the orange box from the <a href="https://learn.freecodecamp.org/" target="_blank_">Applied Visual Design</a> Tutorials on freecodecamp.org. (<a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design" target="blank">click here to start them</a>) <strong>Due Wednesday 09/18/19</strong>
-<br>
+2. Tutorials: Complete all tutorials in the orange box from the <a href="https://learn.freecodecamp.org/" target="_blank_">Applied Visual Design</a> Tutorials on freecodecamp.org. (<a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design" target="blank">click here to start them</a>) <strong>(Due Wednesday 09/18/19)</strong>
+<br><br>
 ![tutorials](images/tuts.jpg)
