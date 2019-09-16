@@ -1,0 +1,82 @@
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+body {
+    background: linear-gradient(#ffffff, #ffbbff);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.title {
+    font-size: 100px;
+    color: #ffbbff;
+    padding: 0px;
+    margin-bottom: -20px;
+    
+}
+
+.subtitle {
+    font-family: 'Sacramento', sans-serif;
+    color: hotpink;
+    line-height: 0.5em;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-size: 40px;
+    transition: 200ms;
+}
+
+p {
+    display: inline;
+    font-family: 'Quicksand', sans-serif;
+    background-color: hotpink;
+}
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: #aadddd;
+    text-decoration: none;
+    font-size: 33px;
+    padding: 0;
+    margin: 0;
+    transition: 200ms;
+}
+
+a:hover {
+    background-color: hotpink;
+    font-size: 2em;
+}
+
+ul.main-nav {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+#diagram {
+    transition: 1000ms;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+#diagram:hover {
+    width: 50%;
+    height: 50%;
+}
+

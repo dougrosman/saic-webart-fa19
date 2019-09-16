@@ -29,6 +29,7 @@ Here's a list of web development and creative coding resources. I'll be adding t
 
 #### CSS Tools
 * <a href="https://cubic-bezier.com" target="blank">Cubic Bezier Curve Generator</a> – Create and test out animation timings/easings in real time using Cubic Bezier Curves!
+* <a href="http://learnlayout.com/position.html" target="blank">Learn CSS Layout</a> – In order to make more complex layouts, we need to discuss the position property. It has a bunch of possible values, and their names make no sense and are impossible to remember.
 
 #### Creative Tutorials!
 * <a href="https://www.youtube.com/channel/UCEqc149iR-ALYkGM6TG-7vQ" target="blank"> Frank's Laboratory (YouTube Channel) </a> – I haven't done many of these, but these somewhat advanced tutorials look great for "Pure CSS" and vanilla Javascript animations.
