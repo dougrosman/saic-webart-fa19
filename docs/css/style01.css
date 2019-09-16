@@ -1,11 +1,12 @@
 .wrapper {
     width: 90%;
+    height: 100%;
     margin: 0 auto;
-    
 }
 
 body {
     background: linear-gradient(#ffffff, #ffbbff);
+    height: 1200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +24,8 @@ h1 {
     margin-bottom: -20px;
     
 }
+
+
 
 .subtitle {
     font-family: 'Sacramento', sans-serif;
@@ -80,3 +83,20 @@ li {
     height: 50%;
 }
 
+.pseudo {
+    font-size: 200px;
+    color: #1199cc;
+}
+.pseudo::before {
+    content:"cool";
+    color: #33ff77;
+    display: block;
+    margin-bottom: -0px;
+    font-size: 30px;
+}
+.pseudo::after {
+    content:"alright";
+    color: #aabbff;
+    display: block;
+    font-size: 30px;
+}
