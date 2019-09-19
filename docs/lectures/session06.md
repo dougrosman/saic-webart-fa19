@@ -20,6 +20,11 @@ ___
 3. Assign homework/work on homework.
 
 
+# <a href="https://dougrosman.github.io/saic-webart-fa19/playgrounds/session06/boxmodel.html" target="blank">CLICK HERE FOR BOX MODEL IN-CLASS DEMO CODE (html)</a>
+
+# <a href="https://dougrosman.github.io/saic-webart-fa19/playgrounds/session06/css/box.css" target="blank">CLICK HERE FOR BOX MODEL IN-CLASS DEMO CODE (css)</a>
+
+
 #### Assignment:
 
 ###### Read:
