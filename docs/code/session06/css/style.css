@@ -1,0 +1,21 @@
+.topic {
+    width: 90%;
+    height: 100px;
+    background-color: #ddd;
+    margin: 30px;
+    
+    border-radius: 0%;
+}
+
+ul{
+    position: relative;
+    font-family: sans-serif;
+    color: darkgreen;
+    text-align: center;
+    top: 30px;
+}
+
+li.topics {
+    display: inline;
+    margin: 50px 20px;
+}
