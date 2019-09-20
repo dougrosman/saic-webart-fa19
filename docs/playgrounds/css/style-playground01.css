@@ -1,42 +1,34 @@
-.wrapper {
-    max-width: 600px;
-    width: 50%;
-    height: 800px;
-    max-height: 800px;
-    margin: 120px auto;
-    padding: 30px;
-    border-radius: 15%;
-    
-    /* background: linear-gradient(#ff9999, #aaffff); */
-    background-color:violet;
-    transition: .5s;
+body {
+    background: linear-gradient(#fff, #aaffff)
 }
-.wrapper:hover {
+
+.wrapper {
+    /* background-color: white; */
+    width: 80%;
+    height: 900px;
+    margin: 0px auto;
+}
+
+.phone {
+    position: relative;
+    top: 50px;
+    width: 30%;
+    height: 700px;
+    /* height: calc(width * 10.5); */
+    margin: auto;
+    padding: 40px;
+    border-radius: 12%;
+    background-color:white;
+    transition: .25s;
+    box-shadow: 0px 10px 40px 10px;
+    /* background: linear-gradient(#ff9999, #aaffff); */
+}
+.container:hover {
     /* background: linear-gradient(#aaffff, #ff9999); */
     background-color:rgb(107, 196, 157);
 
 }
 
-
-
-.box { 
-    width: 19%;
-    height: 76%;
-    float: left;
-    border-radius: 15%;
-    margin: 2% 3%;
-    padding: 0px;
-    background-color: pink;
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition: 1000ms;
-}
-
-.box:hover {
-    background-color: hotpink;
-    transform: scale(3);
-    
-}
 
 .row{
     height: 16.66%;
@@ -48,20 +40,106 @@
     clear: both;
 }
 
+.box {
+    /* position: relative; */
+    width: 19%;
+    height: 65%;
+    float: left;
+    border-radius: 15%;
+    margin: 2% 3%;
+    padding: 0px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1000ms;
+}
+
+.box:hover {
+    /* background-color: hotpink; */
+    transform: scale(1.2);
+    
+}
+
 .horse {
     background-image: url("http://pngimg.com/uploads/horse/horse_PNG2552.png");
     
 }
 
-.red {
-    background-color: red;
+.site {
+    width: 100%;
+    height: 100%;
 }
 
-.green {
-    background-color: green;
+.gif00 {
+    background-image: url("../gifs/circles00.gif")
 }
-
-.blue {
-    background-color: blue;
+.gif01 {
+    background-image: url("../gifs/circles01.gif")
+}
+.gif02 {
+    background-image: url("../gifs/circles02.gif")
+}
+.gif03 {
+    background-image: url("../gifs/circles03.gif")
+}
+.gif04 {
+    background-image: url("../gifs/circles04.gif")
+}
+.gif05 {
+    background-image: url("../gifs/circles05.gif")
+}
+.gif06 {
+    background-image: url("../gifs/circles06.gif")
+}
+.gif07 {
+    background-image: url("../gifs/circles07.gif")
+}
+.gif08 {
+    background-image: url("../gifs/circles08.gif")
+}
+.gif09 {
+    background-image: url("../gifs/circles09.gif")
+}
+.gif10 {
+    background-image: url("../gifs/circles10.gif")
+}
+.gif11 {
+    background-image: url("../gifs/circles11.gif")
+}
+.gif12 {
+    background-image: url("../gifs/circles12.gif")
+}
+.gif13 {
+    background-image: url("../gifs/circles13.gif")
+}
+.gif14 {
+    background-image: url("../gifs/circles14.gif")
+}
+.gif15 {
+    background-image: url("../gifs/circles15.gif")
+}
+.gif16 {
+    background-image: url("../gifs/circles16.gif")
+}
+.gif17 {
+    background-image: url("../gifs/circles17.gif")
+}
+.gif18 {
+    background-image: url("../gifs/circles18.gif")
+}
+.gif19 {
+    background-image: url("../gifs/circles19.gif")
+}
+.gif20 {
+    background-image: url("../gifs/circles20.gif")
+}
+.gif21 {
+    background-image: url("../gifs/circles21.gif")
+}
+.gif22 {
+    background-image: url("../gifs/circles22.gif")
+}
+.gif23 {
+    background-image: url("../gifs/circles23.gif")
 }
 
