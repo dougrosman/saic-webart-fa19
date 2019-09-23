@@ -1,4 +1,4 @@
-# web art | ARTTECH 3900 | SESSION 03: Beginning HTML/CSS | Sep 9, 2019
+# web art | ARTTECH 3900 | SESSION 07: CSS Positioning II | Sep 23, 2019
 ___
 <a href="../">Home</a><br>
 
@@ -15,10 +15,23 @@ ___
 #### Schedule:
 
 1. Smartphone laptop gallery
-2. Review basic concepts
-3. Advanced CSS: Position, Selectors, Box Model, Document Flow, Pseudo elements
+2. Discuss Readings
+3. Advanced CSS: Position, box model, flex-box
 -BREAK–
 3. Assign homework/work on homework.
+
+## Flex Box:
+```
+display: flex;
+flex-direction: row, column, row-reverse, column-reverse;
+    * default is row;
+justify-content: 
+
+```
+
+## Resources:
+<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox/" target="_blank"> Flex Box Tutorial </a>
+<a href="https://css-tricks.com/centering-css-complete-guide/" target="_blank">Centering in CSS: a complete guide</a>
 
 
 #### Assignment:

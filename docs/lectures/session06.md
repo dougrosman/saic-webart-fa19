@@ -1,4 +1,4 @@
-# web art | ARTTECH 3900 | SESSION 03: Beginning HTML/CSS | Sep 9, 2019
+# web art | ARTTECH 3900 | SESSION 06: CSS Positioning | Sep 18, 2019
 ___
 <a href="../">Home</a><br>
 
