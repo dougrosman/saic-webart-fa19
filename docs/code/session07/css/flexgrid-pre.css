@@ -4,18 +4,32 @@ body {
 }
 
 .wrapper {
-    position: relative;
+    position: absolute;
     top: 0px;
     width: 100%;
-    height: 800px;
+    height: 1000px;
     background-color: turquoise;
 }
 
 .container {
     position: relative;
-    width: 50vw;
-    height: 200px;
+    margin: 50px auto;
+    width: 80vw;
+    height: 800px;
     background-color: orange;
-    margin: auto;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.box1 {
+    display: flex;
+    background-color: mintcream;
+    border: 3px solid green;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
 }

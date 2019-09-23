@@ -25,9 +25,18 @@ ___
 display: flex;
 flex-direction: row, column, row-reverse, column-reverse;
     * default is row;
-justify-content: 
+justify-content: center, flex-start, flex-end, space-between, space-around;
+align-items: flex-start, flex-end, center, baseline, stretch;
+flex-wrap: nowrap, wrap, wrap-reverse;
+flex-shrink: num;
+flex-grow: num;
+flex-basis: em/px/%/auto;
+order: num;
+align-self: flex-start, flex-end, center, baseline, stretch;
 
 ```
+
+These values will cause #box-1to grow to fill the extra space at twice the rate of #box-2when the container is greater than 300px and shrink at twice the rate of #box-2when the container is less than 300px. 300px is the combined size of the flex-basisvalues of the two boxes.
 
 ## Resources:
 <a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox/" target="_blank"> Flex Box Tutorial </a>
