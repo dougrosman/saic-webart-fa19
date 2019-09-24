@@ -23,6 +23,9 @@ ___
 ## Today's code
 <a href="https://dougrosman.github.io/saic-webart-fa19/code/session07/flexbox-inclass.html" target="_blank">TODAY'S FLEX BOX CODE </a>
 
+## Resources:
+<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox" target="_blank">Free Code Camp Flex Box Tutorials</a>
+
 ## Flex Box:
 ```
 display: flex;
