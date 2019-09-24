@@ -50,7 +50,7 @@ body {
 }
 
 
-.box, .box2, .box3  {
+.box1 {
     display: flex;
     justify-content: center;
     align-items: center;
