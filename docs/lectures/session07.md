@@ -24,8 +24,7 @@ ___
 <a href="https://dougrosman.github.io/saic-webart-fa19/code/session07/flexbox-inclass.html" target="blank">TODAY'S FLEX BOX CODE </a>
 
 ## Resources:
-<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox" target="blank">Free Code Camp Flex Box Tutorials</a>
-<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox/" target="blank"> Flex Box Tutorial </a>
+<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox/" target="blank"> Flex Box Tutorial </a><br>
 <a href="https://css-tricks.com/centering-css-complete-guide/" target="blank">Centering in CSS: a complete guide</a>
 
 ## Assignment:
