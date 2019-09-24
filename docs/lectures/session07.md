@@ -20,6 +20,9 @@ ___
 -BREAK–
 3. Assign homework/work on homework.
 
+## Today's code
+<a href="https://dougrosman.github.io/saic-webart-fa19/code/session07/flexbox-inclass.html" target="_blank">TODAY'S FLEX BOX CODE </a>
+
 ## Flex Box:
 ```
 display: flex;
