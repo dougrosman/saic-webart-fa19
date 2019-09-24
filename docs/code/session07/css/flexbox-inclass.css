@@ -11,7 +11,6 @@ body {
 
 .container1 {
     position: relative;
-    top: 100px;
     background-color: mintcream;
     width: 80%;
     height: 20%;
@@ -25,7 +24,6 @@ body {
 
 .container2 {
     position: relative;
-    top: 100px;
     background-color:lightpink;
     width: 80%;
     height: 20%;
@@ -38,7 +36,6 @@ body {
 
 .container3 {
     position: relative;
-    top: 100px;
     background-color:gray;
     width: 80%;
     height: 20%;
@@ -50,7 +47,7 @@ body {
 }
 
 
-.box1 {
+.box {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -21,12 +21,18 @@ ___
 3. Assign homework/work on homework.
 
 ## Today's code
-<a href="https://dougrosman.github.io/saic-webart-fa19/code/session07/flexbox-inclass.html" target="_blank">TODAY'S FLEX BOX CODE </a>
+<a href="https://dougrosman.github.io/saic-webart-fa19/code/session07/flexbox-inclass.html" target="blank">TODAY'S FLEX BOX CODE </a>
 
 ## Resources:
-<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox" target="_blank">Free Code Camp Flex Box Tutorials</a>
+<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox" target="blank">Free Code Camp Flex Box Tutorials</a>
+<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox/" target="blank"> Flex Box Tutorial </a>
+<a href="https://css-tricks.com/centering-css-complete-guide/" target="blank">Centering in CSS: a complete guide</a>
 
-## Flex Box:
+## Assignment:
+**(Due Wednesday 09/25)** Take your smartphone layout, and convert the margin and math-based layout to a more streamline flex-box layout! Your phone should look the same (although if you want to make aesthetic changes go right ahead!). Make sure you have all the images and links you need. **Once complete, upload your site to GitHub (you can find the guide on the website homepage), and then send me a link to the site in Slack**
+If you run into problems, post 'em to the slack #general channel!
+
+## Flex Box: different ways to manipulate your content!
 ```
 display: flex;
 flex-direction: row, column, row-reverse, column-reverse;
@@ -42,11 +48,6 @@ align-self: flex-start, flex-end, center, baseline, stretch;
 
 ```
 
-These values will cause #box-1to grow to fill the extra space at twice the rate of #box-2when the container is greater than 300px and shrink at twice the rate of #box-2when the container is less than 300px. 300px is the combined size of the flex-basisvalues of the two boxes.
-
-## Resources:
-<a href="https://learn.freecodecamp.org/responsive-web-design/css-flexbox/" target="_blank"> Flex Box Tutorial </a>
-<a href="https://css-tricks.com/centering-css-complete-guide/" target="_blank">Centering in CSS: a complete guide</a>
 
 ## Questions
 1. When did the 404 Page Not Found Error start appearing on the internet?  (https://www.news.com.au/technology/online/social/the-404-not-found-error-page-has-origins-dating-back-to-the-1980s/news-story/c30a3488e240067204fbcc0155dcbabe)
@@ -56,7 +57,7 @@ These values will cause #box-1to grow to fill the extra space at twice the rate 
 5. outside of nostalgia why is the 1.0 era so important to so many people today?
 (https://qz.com/333313/milliions-of-facebook-users-have-no-idea-theyre-using-the-internet/)
 6. For those that grew up creating personalized webpages and social media profiles, how did thay personally make you feel? Is creating a personal webpage almost like creating a representation of yourself online that needs to be performed in some way?
-7. I found this quote really interesting: “First of all, because it is an expression of a dislike, when today there is only an opportunity to like” ( about the peeing man). I was really curious to know if people in the class agreed with the second half of the statement, and more importantly why. 
+7. I found this quote really interesting: “First of all, because it is an expression of a dislike, when today there is only an opportunity to like” ( about the peeing man). I was really curious to know if people in the class agreed with the second half of the statement, and more importantly why.
 8. Can copyright laws negatively interfere with free speech online? https://archive.org/details/InformationDoesntWantToBeFree
 9. In the Tumblr example,  it says "people should greet the new feature, they should experience satisfaction with every update!" Isn't this another form of "bad" experience? Just different words force people to agree on something.  What if people can choose to not agree and click "No it's not fine." Is this a better user experience?
 
@@ -64,4 +65,3 @@ These values will cause #box-1to grow to fill the extra space at twice the rate 
 #### Assignment:
 
 ### TBD
-
