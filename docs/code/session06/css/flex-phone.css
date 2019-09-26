@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    min-width: 900px;
+    background: rgb(20,253,155);
+    background: linear-gradient(0deg, rgba(20,253,155,.4) 0%, rgba(34,193,195,0) 100%);
+}
+
+#phone {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 10vh auto;
+    width: 400px;
+    height: 700px;
+    border: solid 4px #444;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,255,.63) 0%, rgba(253,45,233,.85) 100%);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+}
+
+
+.box {
+    height: 4em;
+    width: 4em;
+    border: solid 3px rgba(255, 180, 50);
+    border-radius: 1em;
+    transition: transform .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.box:hover{
+    transform: scale(1.5);
+}
+
+
+.dolphin {
+    background-image: url("https://thenypost.files.wordpress.com/2017/05/shutterstock_547308685.jpg");
+
+    background-size: contain;
+    background-size: 150%;
+    background-position-y: 50%;
+    background-position-x: -15px;
+    background-repeat: no-repeat;
+}
