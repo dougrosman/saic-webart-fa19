@@ -3,18 +3,13 @@
     padding: 0;
 }
 
-html {
-    background: rgb(20,253,155);
-    background: linear-gradient(0deg, rgba(20,253,155,.4) 0%, rgba(34,193,195,0) 100%);
-}
-
 #page {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     min-width: 900px;
-    /* background: rgb(20,253,155);
-    background: linear-gradient(0deg, rgba(20,253,155,.4) 0%, rgba(34,193,195,0) 100%); */
+    background: rgb(20,253,155);
+    background: linear-gradient(0deg, rgba(20,253,155,.4) 0%, rgba(34,193,195,0) 100%);
 }
 
 #phone {
