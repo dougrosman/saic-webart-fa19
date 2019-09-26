@@ -5,8 +5,12 @@
 
 #page {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    height: 130vh;
+    height: 100vh;
     min-width: 900px;
     background: rgb(20,253,155);
     background: linear-gradient(0deg, rgba(20,253,155,.4) 0%, rgba(34,193,195,0) 100%);
