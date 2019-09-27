@@ -26,10 +26,81 @@
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(253,45,233,.5) 100%);
     transition: background-color 1s;
-    
 }
+
+/* hovering over the phone will subtly change its background-color property over 1 second */
 #phone:hover {
     background-color:  rgba(220, 228, 179, 1);
+}
+
+#info {
+    position: fixed;
+    right: 5em;
+    bottom: 5em;
+    width: 36px;
+    height: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+    
+    transition-property: background-color, width, height;
+    transition-duration: .75s, .5s, .5s;
+    transition-delay: 0s, .5s, 0s;
+}
+
+/* applies the same styling to #info-text, as well as the download link */
+#info-text, #download {
+    color: rgba(255, 255, 255, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.5em;
+    word-spacing: .1em;
+    transition: color 0.5s 0s;
+}
+
+#ps {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 20, 70, 0);
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+
+/* this is a 'pseudo-class' (which we haven't talked about in class yet. This #info::before pseudo-class allows me to attach a piece of content to the #info class that lives by its own rules.  */
+#info::before {
+    content: "Hey!";
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1em;
+    top: -6px;
+    color: hotpink;
+}
+
+#info:hover {
+    width: 300px;
+    height: 600px;
+    background-color: rgba(0, 20, 70);
+    transition-property: color, background-color, width, height;
+    transition-duration: .5s, 1.25s, .5s, .5s;
+    transition-delay: 1s, 0s, .5s, 0s;
+}
+
+#info:hover #info-text {
+    color: rgba(255, 220, 120, 1);
+    transition: color .5s 1s;
+}
+
+#info:hover #download {
+    color: hotpink;
+    transition: color .5s 1s;
+}
+
+#info:hover #ps {
+    transition: color 2s 6s;
+    color:  rgba(255, 20, 70, 1);
 }
 
 .row {
@@ -39,11 +110,18 @@
     height: 15%;
 }
 
+/* this generic .trigger class can be applied to 
+any of our boxes, and it will be in the correct 
+position. If a .box is inside a .trigger class in 
+our HTML, then the box will animate when we hover 
+over the trigger. */
 .trigger {
-    height: 4.5em;
-    width: 4.5em;
+    height: 4.2em;
+    width: 4.2em;
     border-radius: 1em;
 }
+
+/* these boxes are slightly smaller than the triggers they are contained within */
 .box {
     height: 4em;
     width: 4em;
@@ -53,22 +131,24 @@
     transition: transform 2s cubic-bezier(.63,-0.34,.21,1.04), opacity 2s ease-in, border-color 1s;
 }
 
+/* this tells the box to transition when we hover over the trigger */
 .trigger:hover .box {
     transform: translate(0px, 700px) rotate(720deg) scale(.2);
     opacity: 0;
 }
 
-
+/* the reveal class is invisible until we hover over it. Use this to make the .rows inside the phone appear when you hover over them */
 .reveal {
     background-color: rgba(19, 228, 179, 0);
     border-radius: 20px;
-    transition: background-color .5s;
+    transition: background-color .3s;
 }
 
 .reveal:hover {
     background-color:  rgba(19, 228, 255, .8);
 }
 
+/* when a row is hovered over, it also changes the border color of the icons inside the row */
 .reveal:hover .box {
     border-color: yellow;
 }

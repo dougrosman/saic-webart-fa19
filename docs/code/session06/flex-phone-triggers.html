@@ -8,7 +8,26 @@
 </head>
 <body>
     <div id="page">
+        <div id="info">
+            <p id="info-text"> This webpage/smartphone demo thing combines the flex-box lesson with the transitions lesson (no keyframe animations though!). Try hovering over the icons and rows in the phone and seeing different triggers. Then take a look at the source code (the HTML and the CSS...but mostly the CSS). You can view the source code directly from this web page, or you can download the code <a id="download" href="https://dougrosman.github.io/saic-webart-fa19/downloads/flex-phone-code.zip" target="_blank">here</a>. It might look like a lot, but I encourage you to look through it if transitions or flex-box are giving you trouble.</p>
+            <br>
+            <br>
+
+            <p id="ps">(I honestly spent way too much time on this little pop-out thing, I really hope you appreciate it.)</p>
+
+
+        </div>
         <div id="phone">
+
+            <!-- 
+                We can put each .box inside a .trigger so that when we hover over the .box, it will continue to transition, even if our mouse is no longer hovering over the box itself.
+
+                The structure is <a><div trigger><div box></div></div></a>
+                Basically, the LINK contains the TRIGGER which contains the BOX
+
+                Note: notice the .reveal class in each of the <div class="row reveal"> tags. This "reveal class" makes it so that hovering over each row in the smart phone will make it appear.
+            -->
+
 
             <!-- Row 1 -->
             <div class="row reveal">

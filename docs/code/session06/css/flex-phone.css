@@ -1,29 +1,40 @@
+/* STRUCTURE OF THE CSS
+    * The #page div is set to display: flex; which allows anything              inside of #page (in this case, #phone) to be easily centered/arranged.
+    * The #phone div is set to display: flex; which allows us to evenly         distribute and align any rows we include in the phone.
+    * The .row class is set to display: flex; which allows us to be align the   app "icon" divs contained within
+    * the .box class function as the "app icon." These are put inside of        .rows to be organized.
+ */
+
+ 
+/* '*' is a wildcard character. This block of code basically says "make the 
+default margins and padding for everything on this page 0 */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* #page is a div that contains the entire page */
 #page {
     position: absolute;
-    display: flex;
+    display: flex;                   /* set the display to flex */   
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
-    min-width: 900px;
+    width: 100%;
+    height: 100%;
     background: rgb(20,253,155);
     background: linear-gradient(0deg, rgba(20,253,155,.4) 0%, rgba(34,193,195,0) 100%);
 }
 
+/* phone is a div that acts as a container for divs that look like smart
+phone icons #phone is a child of #page  */
 #phone {
-    position: relative;
-    display: flex;
+    position: absolute;
+    display: flex;                  /* set the display to flex */
     flex-direction: column;
     justify-content: space-around;
     border-radius: 40px;
     padding: 20px;
-    margin: 10vh auto;
     width: 400px;
     height: 700px;
     border: solid 4px #444;
@@ -31,14 +42,15 @@
     background: linear-gradient(0deg, rgba(34,193,255,.63) 0%, rgba(253,45,233,.85) 100%);
 }
 
+/* the row class provides a space to arrange a row of icons */
 .row {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 15%;
+    display: flex;                  /* set the display to flex */
+    justify-content: space-around;  /* distributes the boxes in row */
+    align-items: center;            /* vertically centers icons in row */
+    height: 15%;                    /* height of each row is 15% of #phone */
 }
 
-
+/* the box class is used to represent smartphone app icons */
 .box {
     height: 4em;
     width: 4em;
@@ -47,17 +59,20 @@
     transition: transform .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
+/* this transition causes the icon to enlarge when hovered over */
 .box:hover{
     transform: scale(1.5);
 }
 
-
+/* this class contains information we're using to style our .box divs */
 .dolphin {
     background-image: url("https://thenypost.files.wordpress.com/2017/05/shutterstock_547308685.jpg");
 
-    background-size: contain;
-    background-size: 150%;
-    background-position-y: 50%;
-    background-position-x: -15px;
-    background-repeat: no-repeat;
+    /* Note: the dolphin image I'm pulling from the web doesn't fit our box well. Using the properties below, I was able to adjust the dolphin image until it fit correctly, and was positioned correctly inside the box. You'll have to tweak the values of these properties until you're happy with your image. Alternatively, you can resize and crop your images in something like Photoshop to make them fit better without having to use CSS to resize/re-arrange */ 
+
+    background-size: contain; /* shrinks the image so it fits in the box */
+    background-size: 150%;    /* once shrunk, enlarged slightly to fill up the box correctly. This is necessary since the boxes are square, but the image is a rectangle */
+    background-position-y: 50%; /* moves the image halfway down the .box */
+    background-position-x: -15px; /* moves the image left 15px in the .box */
+    background-repeat: no-repeat; /* makes sure the image doesn't repeat */
 }
