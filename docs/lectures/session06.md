@@ -20,9 +20,16 @@ ___
 3. Assign homework/work on homework.
 
 
-# <a href="https://dougrosman.github.io/saic-webart-fa19/playgrounds/session06/boxmodel.html" target="blank">CLICK HERE FOR BOX MODEL IN-CLASS DEMO CODE (html)</a>
+  
+### <a href="https://dougrosman.github.io/saic-webart-fa19/code/session06/flex-phone.html" target="blank">Flex-box phone solution</a>
+### <a href="https://dougrosman.github.io/saic-webart-fa19/code/session06/flex-phone-triggers.html" target="blank">Flex-box phone with transitions+triggers</a>
+#### Download the code <a href="https://dougrosman.github.io/saic-webart-fa19/downloads/flex-phone-code.zip">here</a>.
 
-# <a href="https://dougrosman.github.io/saic-webart-fa19/playgrounds/session06/css/box.css" target="blank">CLICK HERE FOR BOX MODEL IN-CLASS DEMO CODE (css)</a>
+
+
+### <a href="https://dougrosman.github.io/saic-webart-fa19/playgrounds/session06/boxmodel.html" target="blank">CLICK HERE FOR BOX MODEL IN-CLASS DEMO CODE (html)</a>
+
+### <a href="https://dougrosman.github.io/saic-webart-fa19/playgrounds/session06/css/box.css" target="blank">CLICK HERE FOR BOX MODEL IN-CLASS DEMO CODE (css)</a>
 
 
 #### Assignment:
