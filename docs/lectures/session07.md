@@ -9,6 +9,8 @@ ___
 <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session05">Session 05 - 09/16/19</a> |
 <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session06">Session 06 - 09/18/19</a> |
 <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session07">Session 07 - 09/23/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session08">Session 08 - 09/25/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session09">Session 09 - 09/30/19</a> |
 
 ___
 

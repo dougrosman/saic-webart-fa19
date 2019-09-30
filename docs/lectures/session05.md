@@ -1,4 +1,4 @@
-# web art | ARTTECH 3900 | SESSION 03: Beginning HTML/CSS | Sep 9, 2019
+# web art | ARTTECH 3900 | SESSION 05: Beginning HTML/CSS | Sep 16, 2019
 ___
 <a href="../">Home</a><br>
 
@@ -7,6 +7,10 @@ ___
 <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session03">Session 03 - 09/09/19</a> |
 <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session04">Session 04 - 09/11/19</a> |
 <a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session05">Session 05 - 09/16/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session06">Session 06 - 09/18/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session07">Session 07 - 09/23/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session08">Session 08 - 09/25/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session09">Session 09 - 09/30/19</a> |
 
 ___
 
