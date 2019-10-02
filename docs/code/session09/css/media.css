@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    position: relative;
+    top: 300px;
+    left: 100px;
+    width: 500px;
+    height: 200px;
+    background-color: #0feed0;
+}
+
+@media screen and (min-width: 900px)
+{
+    .box {
+        background-color: #ff22c0;
+    }
+}
