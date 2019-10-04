@@ -28,6 +28,7 @@ a.webart {
     font-size: calc(1em + 6vw);
     border: 2px solid #fe5533;
     padding: 8px;
+    margin: 10px 0 0 0;
     color: white;
     text-shadow:
 		-2px -2px 0 #000,
@@ -39,9 +40,8 @@ a.webart {
     background-color: white;
 }
 
-
 #sticky-nav{
-    top: calc(60px + 6vw);
+    top: calc(70px + 6vw);
     left: 50%;
     transform: translateX(-50%);
     border: 2px solid lightseagreen;
@@ -108,7 +108,7 @@ a.webart {
 
 #assignment-list {
     position: relative;
-    top: 200px;
+    top: calc(80px + 8vw);
     left: 0px;
     margin: 20px auto 4px auto;
     padding: 0;
@@ -184,7 +184,7 @@ a.schedule {
         position: relative;
         width: 100%;
     }
-
+    
     #sticky-nav ul {
         display: flex;
         flex-direction: column;
@@ -197,23 +197,45 @@ a.schedule {
         justify-content: center;
         font-size: 3em;
         margin: 0;
+        border: 0px solid black;
+    }
+
+    #sticky-nav a {
+        color: black;
+        align-items: center;
+        display: block;
+        padding: 10px 0;
+        margin: 4px 0;
+        border: 2px solid gray;
+    }
+
+    #sticky-nav li:hover {
+        color: white;
+        background-color: black;
+        border: 0px solid white;
+    }
+    
+    #sticky-nav a:hover {
+        color: white;
+        background-color: black;
+        
+    }
+    #sticky-nav li:hover a {
+        color: white;
+        border: 0px solid black;
     }
 
     #assignment-list {
         z-index: 1;
         position: relative;
         left: -2px;
-        top: calc(300px + 4vw);
+        top: calc(490px + 4vw);
         margin: 4px auto;
         padding: 0;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-    }
-
-    a.nav-links{
-
     }
 
     a.assignment-link {
@@ -234,7 +256,7 @@ a.schedule {
         background-color: pink;
     }
     .assignment h2 {
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1.6em;
     }
 
@@ -248,7 +270,6 @@ a.schedule {
         padding: 5px;
 
     }
-
     .green {
         background-color: #ccffdd;
     }
@@ -305,6 +326,20 @@ a.schedule {
         justify-content: center;
         font-size: 3em;
         margin: 0;
+        border: 2px solid blue;
+    }
+
+    #sticky-nav a {
+        padding: 20px
+    }
+    
+    #sticky-nav a:hover {
+        color: white;
+        background-color: black;
+        border: 2px solid white;
+    }
+    #sticky-nav a:hover a {
+        color: white;
     }
 
     #assignment-list {
@@ -318,10 +353,6 @@ a.schedule {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-    }
-
-    a.nav-links{
-
     }
 
     a.assignment-link {
