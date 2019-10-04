@@ -22,6 +22,9 @@ a:active {
 
 Here's a list of web development and creative coding resources. I'll be adding to this over time!
 
+#### Stuff for our class
+* <a href="gitguide.md" target="blank">GitHub Guide</a>
+
 #### General Coding
 * <a href="https://learn.freecodecamp.org" target="blank">Free Code Camp</a> – Great guided tutorials in HTML/CSS/Javascript and more
 * <a href="https://www.youtube.com/user/shiffman" target="blank">The Coding Train (YouTube Channel)</a> – The Coding Train covers A TON of creative coding topics, mostly for P5.js, but there's some basic web stuff in there too.
