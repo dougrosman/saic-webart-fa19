@@ -7,7 +7,7 @@
 #wrapper {
     border: 3px solid lightcoral;
     width: 98vw;
-    height: 98vh;
+    /* height: 98vh; */
     margin: 2px auto;
     display: flex;
     justify-content: flex-start;
@@ -33,11 +33,20 @@
     
 }
 #header::before {
+    position: relative;
+    top: -9px;
+    left: -5px;
     content: "div id=header";
     align-self: baseline;
     justify-content: flex-start;
     color: lightskyblue;
     font-size: .75em;
+}
+
+a.webart {
+    color: inherit;
+    text-decoration: none;
+
 }
 
 h1 {
@@ -74,12 +83,10 @@ h1 {
 #main-nav{
     border: 3px solid lightseagreen;
     width: 90%;
-    /* height: 20%; */
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: center;
 }
-
 
 #main-nav ul {
     display: flex;
@@ -88,17 +95,17 @@ h1 {
 
 #main-nav li {
     list-style: none;
-    font-size: 2.5em;
+    font-size: calc(1.1em + 1vw);
     margin: .2em 0;
     border: 2px solid lightslategrey;
-    padding: 4px;
+    padding: 2px;
     font-weight: 100;
 }
 
 #main-nav a {
     color: black;
     font-size: .6em;
-    display: flex;
+    display: block;
     align-items: center;
 }
 
@@ -113,11 +120,11 @@ h1 {
 
 #diagram {
     transform: scale(1.2);
-    padding: 80px;
+    padding: 80px 0 60px 0;
     margin: 20px;
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 768px) {
 
     #main-nav ul {
         /* height: 20%; */
@@ -130,7 +137,12 @@ h1 {
     #main-nav li {
         display: flex;
         justify-content: center;
-        font-size: 4em;
+        font-size: 3em;
+    }
+
+    #diagram {
+        transform: scale(1);
+        padding: 2px 0 20px 0;
     }
 }
 

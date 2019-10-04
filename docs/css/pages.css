@@ -9,6 +9,12 @@ h1 {
     font-size: 7em;
 }
 
+a.webart {
+    color: inherit;
+    text-decoration: none;
+
+}
+
 #title {
     top: 0px;
     left: 50%;
