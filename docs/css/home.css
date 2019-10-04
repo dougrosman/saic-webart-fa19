@@ -124,7 +124,7 @@ h1 {
     margin: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
     #main-nav ul {
         /* height: 20%; */

@@ -118,12 +118,26 @@ a.webart {
         margin: 0;
     }
 
-    /* #title {
-        position: absolute;
-        top: 0;
-        margin: 0;
-        padding-top: 0;
-    } */
+    #assignment-list {
+        position: relative;
+        left: -2px;
+        margin: 4px auto;
+        padding: 0;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .assignment {
+        margin: 10px auto;
+        padding: 0;
+        width: 98%;
+        height: 100px;
+        border: 2px solid black;
+        display: flex;
+    }
 
 
 }
