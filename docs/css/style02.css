@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Helvetica, Airal, sans-serif;
+    font-size: 16em;
+}

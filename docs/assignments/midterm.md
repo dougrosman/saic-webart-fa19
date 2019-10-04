@@ -47,9 +47,11 @@ Wednesday, October 2
 |
 Wednesday, October 23
 
+___
 
-### Due Monday (10/07):
+## Roadmap Assignments
 
+1. Due Monday 10/7 in class: Create a "site-map" on paper of your artist website (assignment info <a href="https://dougrosman.github.io/saic-webart-fa19/assignments/site-sketch">here.</a>)
 
 ##### Midterm prep: Create a "site-map" on paper of your artist website.
 Think of this as a sketch of your website. What's the content, how is it structured? etc. It can be tempting to just sit with an empty HTML/CSS page and start "_coding._" Sometimes that's a good way to figure things out. But for more involved coding projects (and any involved project, for that matter), thinking through and planning your project before writing a single line of code can save you from some headaches later on.
