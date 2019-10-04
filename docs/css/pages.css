@@ -44,7 +44,7 @@ a.webart {
     left: 50%;
     transform: translateX(-50%);
     border: 2px solid lightseagreen;
-    width: 82%;
+    width: 80%;
     position: fixed;
     margin: 0 auto;
     padding: 0;
@@ -98,9 +98,9 @@ a.webart {
     position: relative;
     top: 200px;
     left: -2px;
-    margin: 4px auto;
+    margin: 20px auto 4px auto;
     padding: 0;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -108,17 +108,18 @@ a.webart {
 }
 
 a.assignment-link {
-    display: block;
+    display: flex;
     color: inherit;
     text-decoration: none;
+    border: solid 2px pink;
+    margin: 10px 0;
 }
 .assignment {
-    margin: 10px auto;
+    margin: 0;
     padding: 0 15px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 2px solid pink;
 }
 
 .assignment:hover {
@@ -193,18 +194,17 @@ a.assignment-link {
     }
 
     a.assignment-link {
-        display: block;
+        display: flex;
         color: inherit;
         text-decoration: none;
+        border: solid 2px pink;
     }
     .assignment {
         position: static;
-        margin: 10px auto;
         padding: 0 15px;
         width: 98%;
         display: flex;
         justify-content: space-between;
-        border: 2px solid pink;
     }
 
     .assignment:hover {
@@ -280,18 +280,17 @@ a.assignment-link {
     }
 
     a.assignment-link {
-        display: block;
+        display: flex;
         color: inherit;
         text-decoration: none;
+        border: solid 2px pink;
     }
     .assignment {
         position: static;
-        margin: 10px auto;
         padding: 0 15px;
         width: 98%;
         display: flex;
         justify-content: space-between;
-        border: 2px solid pink;
     }
 
     .assignment:hover {

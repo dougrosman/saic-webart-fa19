@@ -1,8 +1,8 @@
 
 # Midterm prep: a sketch of your site layout/structure
-__Assigned:__ 09/30/19 (Session 09)
-__Due:__ 10/7/19 (Session 11)
-__How to submit:__ Not formally turning this in, but please have it ready so we can discuss it in class on 10/7 or 10/9
+__Assigned:__ 09/30/19 (Session 09)<br>
+__Due:__ 10/7/19 (Session 11)<br>
+__How to submit:__ Not formally turning this in, but please have it ready so we can discuss it in class on 10/7 or 10/9<br>
 ___
 
 ### Assignment Description

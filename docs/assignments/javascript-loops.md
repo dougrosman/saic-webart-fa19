@@ -1,8 +1,8 @@
 
 # Assignment: Javascript Loops
-__Assigned:__ 10/2/19 (Session 10)
-__Due:__ 10/7/19 (Session 11)
-__How to submit:__ 1. Upload your site to your GitHub. 2. Post the site link in this Canvas assignment <a href="https://saic.instructure.com/courses/2560557/assignments/24250052" target="blank">here</a>.
+__Assigned:__ 10/2/19 (Session 10)<br>
+__Due:__ 10/7/19 (Session 11)<br>
+__How to submit:__ 1. Upload your site to your GitHub. 2. Post the site link in this Canvas assignment <a href="https://saic.instructure.com/courses/2560557/assignments/24250052" target="blank">here</a>.<br>
 ___
 
 ### Assignment Description:

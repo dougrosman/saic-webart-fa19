@@ -1,8 +1,9 @@
 
 # The Midterm: Your Portfolio website.
-__Assigned:__ 10/2/19 (Session 10)
-__Due:__ 10/21/19 (Session 15)
-__How to submit:__ 1. Upload your site to your GitHub. 2. Post the site link in this Canvas assignment <a href="https://saic.instructure.com/courses/2560557/assignments/24250370" target="blank">here</a>.
+__Assigned:__ 10/2/19 (Session 10) <br>
+__Due:__ 10/21/19 (Session 15) <br>
+__How to submit:__ 1. Upload your site to your GitHub. 2. Post the site link in this Canvas assignment <a href="https://saic.instructure.com/courses/2560557/assignments/24250370" target="blank">here</a>.<br>
+
 ___
 
 ### Assignment Description:
@@ -36,15 +37,15 @@ ___
 ## Midterm (suggested) Timeline:
 
 Wednesday, October 2
-|
-|
-|   <sub>sketch out the structure of your site without using code (due Mon. 10/7)</sub>
-|   <sub>meet with me to discuss the design, and strategies for executing (10/7 or 10/9)</sub>
-|   <sub>start drafting HTML. think about what content is going to go where. assemble some placeholder content (images, text, etc) to use while you build the structure (10/9-10/14)</sub>
-|   <sub>start implementing CSS, and then Javascript as needed (10/15-10/21)</sub>
-|   <sub>with the structure and styling in place, swap out any placeholder content with your portfolio content, clean things up and prepare for critiques :) (10/21-10/22)</sub>
-|
-|
+| <br>
+| <br>
+|   <sub>sketch out the structure of your site without using code (due Mon. 10/7)</sub><br>
+|   <sub>meet with me to discuss the design, and strategies for executing (10/7 or 10/9)</sub><br>
+|   <sub>start drafting HTML. think about what content is going to go where. assemble some placeholder content (images, text, etc) to use while you build the structure (10/9-10/14)</sub><br>
+|   <sub>start implementing CSS, and then Javascript as needed (10/15-10/21)</sub><br>
+|   <sub>with the structure and styling in place, swap out any placeholder content with your portfolio content, clean things up and prepare for critiques :) (10/21-10/22)</sub><br>
+| <br>
+| <br>
 Wednesday, October 23
 
 ___
