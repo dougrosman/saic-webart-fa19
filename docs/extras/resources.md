@@ -23,7 +23,7 @@ a:active {
 Here's a list of web development and creative coding resources. I'll be adding to this over time!
 
 #### Stuff for our class
-* <a href="gitguide.md" target="blank">GitHub Guide</a>
+* <a href="gitguide" target="blank">GitHub Guide</a>
 
 #### General Coding
 * <a href="https://learn.freecodecamp.org" target="blank">Free Code Camp</a> – Great guided tutorials in HTML/CSS/Javascript and more
