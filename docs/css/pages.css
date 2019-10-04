@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 7em;
+}
+
+#title {
+    top: 0px;
+    left: 50%;
+    position: fixed;
+    font-size: calc(1em + 6vw);
+    border: 2px solid #fe5533;
+    padding: 8px;
+    color: white;
+    text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+        2px 4px 0 #000;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+
+#sticky-nav{
+    top: calc(60px + 6vw);
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid lightseagreen;
+    width: 82%;
+    position: fixed;
+    margin: 0 auto;
+    padding: 0;
+    /* transform: translateX(50%); */
+}
+
+.blank {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    border: 3px solid brown;
+}
+#sticky-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sticky-nav li {
+    list-style: none;
+    font-size: calc(8px + 1vw);
+    margin: .2em 0;
+    border: 2px solid lightslategrey;
+    padding: 4px;
+    font-weight: 100;
+}
+
+#sticky-nav a {
+    color: black;
+    font-size: .6em;
+    align-items: center;
+    display: block;
+}
+
+#sticky-nav li:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+#sticky-nav li:hover a {
+    color: white;
+}
+
+#diagram {
+    transform: scale(1.2);
+    padding: 80px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    #title {
+        margin: 20px 0 10px 0;
+        position: static;
+        transform: translateX(0);
+    }
+    #sticky-nav {
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+
+    #sticky-nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+
+    #sticky-nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+        margin: 0;
+    }
+
+    /* #title {
+        position: absolute;
+        top: 0;
+        margin: 0;
+        padding-top: 0;
+    } */
+
+
+}
+
+/* @media only screen and (min-width: 768px) {
+    
+    #title {
+        font-size: 9em;
+    }
+} */

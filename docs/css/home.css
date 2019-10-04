@@ -8,7 +8,7 @@
     border: 3px solid lightcoral;
     width: 98vw;
     height: 98vh;
-    margin: 0 auto;
+    margin: 2px auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -60,7 +60,7 @@ h1 {
 
 #subtitle {
     font-size: calc(1em + 2vw);
-    border: 1px solid blueviolet;
+    border: 3px solid lightpink;
     padding: 8px;
     margin: .25em 0;
     color: white;
@@ -111,6 +111,12 @@ h1 {
     color: white;
 }
 
+#diagram {
+    transform: scale(1.2);
+    padding: 80px;
+    margin: 20px;
+}
+
 @media only screen and (max-width: 995px) {
 
     #main-nav ul {
@@ -123,7 +129,8 @@ h1 {
 
     #main-nav li {
         display: flex;
-        justify-content: center;;
+        justify-content: center;
+        font-size: 4em;
     }
 }
 
