@@ -1,0 +1,18 @@
+
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid hotpink;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    margin: 6px;
+}

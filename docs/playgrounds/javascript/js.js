@@ -65,16 +65,17 @@ let numCount = 0;
 while(numCount < 10) {
     numStr+=numCount;
     
-    console.log(numStr);
+    console.log(numStr + '\n\n');
     numCount++
 }
-console.log('\n\n');
+// console.log('\n\n');
 
 // 3. Use a for-loop and some conditional statements (if/else) to print out this pattern: +-+
 console.log("3) Use a for-loop and some conditional statements (if/else) to print out this pattern:\n\n")
 
 let plusMinus = '';
 for(let i = 0; i < 21; i++) {
+    // if i is even
     if(i % 2 == 0) {
         plusMinus+='+';
     } else {
