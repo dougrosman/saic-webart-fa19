@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    color: blue;
+    display: block;
+    background-color: pink;
+}
+
+#playground {
+    margin: 0 auto;
+    width: 90vw;
+    height: 80vh;
+    background-color: lightcyan;
+    overflow: scroll;
+}
+
+.box {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    overflow: scroll;
+}
