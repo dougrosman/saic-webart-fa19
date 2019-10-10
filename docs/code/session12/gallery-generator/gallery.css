@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    top: 5vh;
+    margin: 0 auto;
+    width: 90vw;
+    height: 90vh;
+    background-color: lightsalmon;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: .5em;
+    overflow-wrap: break-word;
+    overflow: scroll;
+}
