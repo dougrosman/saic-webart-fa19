@@ -21,4 +21,5 @@
     font-size: .5em;
     overflow-wrap: break-word;
     overflow: scroll;
+    background-size: contain;
 }
