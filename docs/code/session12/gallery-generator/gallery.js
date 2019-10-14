@@ -38,11 +38,29 @@ for(let i = 0; i < 20; i++) {
     boxes[i].classList.add('box');
 }
 
-for(let i = 0; i < boxes.length; i++)
-{
-    let currBox = boxes[i];
-    currBox.style.backgroundColor = 'red';
-    currBox.innerHTML = generateURL();
-    // if you want a random imgur gallery, uncomment the line below
-    currBox.style.backgroundImage = `url('${generateURL()}')`;
-}
+//setInterval (function() {
+
+
+    for(let i = 0; i < boxes.length; i++)
+    {
+        let currBox = boxes[i];
+        currBox.style.backgroundColor = 'white';
+        currBox.innerHTML = generateURL();
+        let url = generateURL();
+        //myImage.src = url;
+        
+        let myImage = new Image();
+        myImage.src = 'bottle.jpg';
+        myImage.onload = function(){
+            console.log("WIDTH: " + this.width);
+            let dims = [this.width, this.height];
+            console.log("dims: ");
+            console.log(dims);
+            // return dims;
+        };
+        console.log("kdfasdfasdf");
+        
+        // if you want a random imgur gallery, uncomment the line below
+        currBox.style.backgroundImage = `url('${generateURL()}')`;
+    }
+//}, 10000);

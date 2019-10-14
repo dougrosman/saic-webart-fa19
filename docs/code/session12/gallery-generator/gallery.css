@@ -3,23 +3,39 @@
     margin: 0;
 }
 
+#outer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #container {
     position: relative;
-    top: 5vh;
-    margin: 0 auto;
-    width: 90vw;
-    height: 90vh;
-    background-color: lightsalmon;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
 }
 
 .box {
-    display: inline-block;
     width: 100px;
     height: 100px;
+    position: relative;
     margin: 10px;
-    border: 2px solid black;
-    font-size: .5em;
-    overflow-wrap: break-word;
-    overflow: scroll;
-    background-size: contain;
+    border: 0px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.box:hover {
+    transform: scale(2);
+    z-index: 2;
 }
