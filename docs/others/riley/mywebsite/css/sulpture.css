@@ -46,7 +46,7 @@
 .one{
     top:350px;
     left:150px;
-    background-image: url(../images/chestthub.png);
+    /* background-image: url(../images/chestthub.png); */
 }
 .two{
     top: 240px;
