@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#container {
+    margin: 0 auto; 
+    width: 80%;
+    height: 800px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: inline-block;
+    margin: 10px;
+    background-color: pink;
+}
+

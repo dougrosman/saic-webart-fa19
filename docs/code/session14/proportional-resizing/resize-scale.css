@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#container {
+    /* position: absolute; */
+    top: 100px;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+
+.box {
+    margin: 10px;
+    width: 5em;
+    height: 5em;   
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.black {
+    background-color: black;
+}
