@@ -90,33 +90,33 @@
     width:200px;
 }
 .one:hover{
-    background-image: url(/images/chestthub.png);
+    background-image: url(../images/chestthub.png);
 }
 .two:hover{
-    background-image: url(/images/sculpture/dragonthumb.jpg);}
+    background-image: url(../images/sculpture/dragonthumb.jpg);}
 
 .three:hover{
-    background-image: url(/images/sculpture/alithumb.jpg)
+    background-image: url(../images/sculpture/alithumb.jpg)
 }
 .four:hover{
-    background-image: url(/images/sculpture/ful1.jpg)
+    background-image: url(../images/sculpture/ful1.jpg)
     /* not working */
 }
 .five:hover{
-    background-image: url(/images/sculpture/duckthumb.jpg)
+    background-image: url(../images/sculpture/duckthumb.jpg)
 }
 .six:hover{
-    background-image: url(/images/sculpture/horsethumb.jpg)
+    background-image: url(../images/sculpture/horsethumb.jpg)
 }
 .sevin:hover{
-    background-image: url(/images/sculpture/legsthumb.jpg)
+    background-image: url(../images/sculpture/legsthumb.jpg)
 }
 .eight:hover{
-    background-image: url(/images/sculpture/work.jpg)
+    background-image: url(../images/sculpture/work.jpg)
 }
 .nine:hover{
-    background-image: url(/images/sculpture/sphthumb.jpg)
+    background-image: url(../images/sculpture/sphthumb.jpg)
 }
 .ten:hover{
-    background-image: url(/images/sculpture/stafthumb.jpg)
+    background-image: url(../images/sculpture/stafthumb.jpg)
 }
