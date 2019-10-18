@@ -73,11 +73,10 @@ p {
     width: max-content;
     flex-wrap: nowrap;
     z-index: 0;
-    
-    
 }
 
 .page {
+    display: none;
     position: relative;
     left: 105px;
     width: 800px;
@@ -109,26 +108,4 @@ p {
     0% {opacity: 1;}
     100% {opacity: 0;}
 }
-
-#sample-page1 {
-    display: none;
-}
-
-#sample-page2 {
-    display: none;
-}
-
-#sample-page3 {
-    display: none;
-}
-
-#sample-page4 {
-    display: none;
-}
-
-#sample-page5 {
-    display: none;
-}
-
-
 
