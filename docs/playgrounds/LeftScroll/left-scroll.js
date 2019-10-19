@@ -12,6 +12,7 @@ for(let i = 0; i < navLinks.length; i++) {
         console.log(pages[i]);
 
         if(pages[i].style.display == "block") {
+            pages[i].scrollIntoView(true);
             return;
         } else {
             
@@ -21,8 +22,7 @@ for(let i = 0; i < navLinks.length; i++) {
             order++;
             pages[i].style.display = "block";
             orderDisplay.innerHTML = `<span style="font-size: 4em;">${pages[i].style.order}</span>`;
-            pages[i].scrollIntoView();
-            
+            pages[i].scrollIntoView(); 
             
         }
     });

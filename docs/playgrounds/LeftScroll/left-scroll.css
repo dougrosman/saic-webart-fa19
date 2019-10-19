@@ -10,7 +10,7 @@ body {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: white;
     cursor: help;
 }
 
@@ -60,7 +60,6 @@ p {
 
 .left-nav-items {
     list-style-type: none;
-    color: white;
     font-family: sans-serif;
     font-size: .8em;
 }
@@ -75,11 +74,12 @@ p {
     z-index: 0;
 }
 
+
 .page {
     display: none;
     position: relative;
     left: 105px;
-    width: 200px;
+    width: 400px;
     height: 80vh;
     margin: 0 .5em;
     background-color: pink;
@@ -87,16 +87,21 @@ p {
     animation: fade-in 1000ms;
 }
 
+
 .close{
     right: 10px;
     top: 5px;
     position: absolute;
-    transform: rotateZ(45deg);
+    transform: rotate(45deg);
     font-size: 2em;
-    color: red;
+    color: black;
+    transition: transform 250ms, color 250ms;
 }
+
 .close:hover {
-    color: green; 
+    color: red; 
+    transform: rotateZ(0deg);
+    
 }
 
 @keyframes fade-in {
