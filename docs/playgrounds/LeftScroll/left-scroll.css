@@ -35,6 +35,31 @@ p {
     
 }
 
+#wrapper {
+    position: static;
+    transform: scale(1);
+    animation: grow 600ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shrink {
+    0% {transform: scale(1); left: 0px;}
+    100% {transform: scale(0.4); left: -200px;}
+}
+
+@keyframes grow {
+    0% {transform: scale(0.4); left: -200px;}
+    100% {transform: scale(1); left: 0px;}
+}
+
+#scale {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    padding: 10px;
+}
+
 
 #left-nav { 
     min-width: 100px;
@@ -72,6 +97,14 @@ p {
     width: max-content;
     flex-wrap: nowrap;
     z-index: 0;
+}
+
+.nav-a {
+    padding: 3px;
+    transition: background-color 200ms;
+}
+.nav-a:hover {
+    background-color: black;
 }
 
 

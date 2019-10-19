@@ -5,6 +5,27 @@ let navLinks = document.getElementsByClassName("nav-a");
 let closers = document.getElementsByClassName("close");
 let order = 0;
 
+let wrapper = document.getElementById("wrapper");
+const button = document.getElementById("scale");
+
+button.addEventListener('click', function(){
+
+    if(wrapper.style.animationName == "shrink"){
+        wrapper.style.animationName = "grow";
+        setTimeout(function() {
+            wrapper.style.position = "static";
+        }, 1000);
+        
+    } else {
+        wrapper.style.animationName = "shrink";
+        wrapper.style.position = "relative";
+    }
+
+    console.log(wrapper.style.transform);
+        
+});
+
+
 for(let i = 0; i < navLinks.length; i++) {
     navLinks[i].addEventListener("click", function(e){
         e.preventDefault();
@@ -40,8 +61,7 @@ for(let i = 0; i < navLinks.length; i++) {
                 if(pages[i].style.display=='block' && pages[i].style.order >= order-1) {
                     pages[i].style.order = `${pages[i].style.order-1}`;
                     let orderDisplay = pages[i].querySelector('p');
-                    orderDisplay.innerHTML = `<span style="font-size: 4em;">${pages[i].style.order}</span>`;
-                    
+                    orderDisplay.innerHTML = `<span style="font-size: 4em;">${pages[i].style.order}</span>`; 
                 }
             }
     });
