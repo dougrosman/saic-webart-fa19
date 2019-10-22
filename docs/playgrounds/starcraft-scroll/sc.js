@@ -3,7 +3,7 @@
         var timer = null;
 
         var aud = document.getElementById("sc");
-        aud.volume = 0.01;
+        aud.volume = 0.2;
  
         window.addEventListener( "mousemove", handleMousemove, false );
  
