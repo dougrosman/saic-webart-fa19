@@ -12,6 +12,7 @@ a {
     text-decoration: none;
     color: white;
     cursor: help;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -99,6 +100,18 @@ p {
     z-index: 0;
 }
 
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    animation: fade-in 1000ms;
+    display: none;
+    background-color: orange;
+    position: relative;
+    left: 105px;
+    margin: 0 10px;
+
+}
+
 .nav-a {
     padding: 3px;
     transition: background-color 200ms;
@@ -107,11 +120,19 @@ p {
     background-color: black;
 }
 
+.top-page{
+    display: block;
+    width: 400px;
+    height: 80vh;
+    margin: 0 .5em;
+    background-color: pink;
+    cursor: url(images/point-rev-x-sm.png) 10 0, auto;
+    animation: fade-in 1000ms;
+}
 
 .page {
     display: none;
-    position: relative;
-    left: 105px;
+    
     width: 400px;
     height: 80vh;
     margin: 0 .5em;
@@ -129,6 +150,22 @@ p {
     font-size: 2em;
     color: black;
     transition: transform 250ms, color 250ms;
+}
+
+.top-close{
+    right: 10px;
+    top: 5px;
+    position: absolute;
+    transform: rotate(45deg);
+    font-size: 2em;
+    color: black;
+    transition: transform 250ms, color 250ms;
+}
+
+.top-close:hover {
+    color: red; 
+    transform: rotateZ(0deg);
+    
 }
 
 .close:hover {

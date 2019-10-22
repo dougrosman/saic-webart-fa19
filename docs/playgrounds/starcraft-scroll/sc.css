@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url("images/burst.png");
+    
+}
+
+.container{
+    width: 350vw;
+    height: 350vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: url('images/sc-cursor-21x21.png'), auto;
+}
+
+.window
+
+.box {
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+
+#sc {
+    display: none;
+}

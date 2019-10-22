@@ -1,9 +1,10 @@
 
-let pages = document.getElementsByClassName("page");
+let vertContainers = document.getElementsByClassName("vertical-container");
+let pages = document.getElementsByClassName("pages");
 
 let navLinks = document.getElementsByClassName("nav-a");
-let closers = document.getElementsByClassName("close");
-let order = 0;
+let topClosers = document.getElementsByClassName("top-close");
+let topOrder = 0;
 
 let wrapper = document.getElementById("wrapper");
 const button = document.getElementById("scale");
@@ -30,45 +31,47 @@ for(let i = 0; i < navLinks.length; i++) {
     navLinks[i].addEventListener("click", function(e){
         e.preventDefault();
         console.log("added:");
-        console.log(pages[i]);
+        console.log(vertContainers[i]);
 
-        if(pages[i].style.display == "block") {
-            pages[i].scrollIntoView(true);
+        if(vertContainers[i].style.display == "block") {
+            vertContainers[i].scrollIntoView(true);
             return;
         } else {
             
-            let orderDisplay = pages[i].querySelector('p');
-            pages[i].style.animationName = "fade-in";
-            pages[i].style.order = `${order}`;
-            order++;
-            pages[i].style.display = "block";
-            orderDisplay.innerHTML = `<span style="font-size: 4em;">${pages[i].style.order}</span>`;
-            pages[i].scrollIntoView(); 
+            // let topOrderDisplay = vertContainers[i].querySelector('p');
+            vertContainers[i].style.animationName = "fade-in";
+            vertContainers[i].style.order = `${topOrder}`;
+            topOrder++;
+            vertContainers[i].style.display = "block";
+            topOrderDisplay.innerHTML = `<span style="font-size: 4em;">${vertContainers[i].style.topOrder}</span>`;
+            vertContainers[i].scrollIntoView(); 
             
         }
     });
     
-    closers[i].addEventListener("click", function(e) {
+    topClosers[i].addEventListener("click", function(e) {
         console.log("removed:");
-        pages[i].style.animationName = "fade-out";
+        vertContainers[i].style.animationName = "fade-out";
             setTimeout(function() {
-                pages[i].style.display = "none";
+                vertContainers[i].style.display = "none";
             }, 1000);
-            order--;
+            topOrder--;
 
             for(let i = 0; i < navLinks.length; i++) {
-                console.log(pages[i]);
-                if(pages[i].style.display=='block' && pages[i].style.order >= order-1) {
-                    pages[i].style.order = `${pages[i].style.order-1}`;
-                    let orderDisplay = pages[i].querySelector('p');
-                    orderDisplay.innerHTML = `<span style="font-size: 4em;">${pages[i].style.order}</span>`; 
+                console.log(vertContainers[i]);
+                if(vertContainers[i].style.display=='block' && vertContainers[i].style.order >= topOrder-1) {
+                    vertContainers[i].style.order = `${vertContainers[i].style.order-1}`;
+                    let topOrderDisplay = vertContainers[i].querySelector('p');
+                    topOrderDisplay.innerHTML = `<span style="font-size: 4em;">${vertContainers[i].style.order}</span>`; 
                 }
             }
     });
+
+
+   
 }
 
-function pageScroll() {
-    window.scrollBy(3,0);
-    scrolldelay = setTimeout(pageScroll,1);
-    console.log("ok");
+for(let i = 0; i < vertContainers.length; i++) {
+
+    let 
 }
