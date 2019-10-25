@@ -15,6 +15,8 @@ ___
     <br>
     
 Download and read the reading here: https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf
+<br>
+
 
 After the reading: write a written response to these questions:
     1. Would you change any of your pre-reading responses? How so?
