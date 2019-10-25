@@ -1,5 +1,5 @@
 
-# Reading Assignment: _Program or Be Programmed_ by Douglas Rushkoff
+# Reading Assignment: _Program or be Programmed_ by Douglas Rushkoff
 __Assigned:__ 10/24/19 <br>
 __Due:__ 10/28/19 (Monday) <br>
 __How to submit:__ Submit a response to Canvas <a href="https://saic.instructure.com/courses/2560557/assignments/24469373" target="_blank">here</a>.
