@@ -12,13 +12,14 @@ ___
     1. Do you like computer programming/coding? Why?
     1. After learning a bit about creating websites, do you feel more or less comfortable with technology?
     1. Does learning how to code feel empowering? Why or why not?
+
     <br>
     
 Download and read the reading here: <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf" target="blank">here</a>.
 <br>
 
 
-After the reading: write a written response to these questions:
+1. After the reading: write a written response to these questions:
     1. Would you change any of your pre-reading responses? How so?
     1. Do you agree or disagree with what the author is arguing? Why?
 
