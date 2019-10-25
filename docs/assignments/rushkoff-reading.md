@@ -14,7 +14,7 @@ ___
     1. Does learning how to code feel empowering? Why or why not?
     <br>
     
-Download and read the reading here: https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf
+Download and read the reading here: <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf" target="blank">here</a>.
 <br>
 
 
