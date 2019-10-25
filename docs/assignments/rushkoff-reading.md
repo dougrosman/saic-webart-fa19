@@ -19,8 +19,9 @@ Download and read the reading here: <a href="https://dougrosman.github.io/saic-w
 <br>
 
 
-1. After the reading: write a written response to these questions:
+2. After the reading: write a written response to these questions:
     1. Would you change any of your pre-reading responses? How so?
     1. Do you agree or disagree with what the author is arguing? Why?
+    <br>
 
-__Answer some questions, read a short reading, answer some more questions!__
+__Summary: answer some questions, read a short reading, answer some more questions!__
