@@ -29,8 +29,15 @@ function loadImage(url) {
             console.log("trying again...");
             loadImage(generateURL(5));
          } else { 
+            let newA = document.createElement('a');
+            newA.href = `${img.src}`;
+            
+            newA.target = "_blank";
+            container.appendChild(newA);
+            let galLinks = container.querySelectorAll('a');
+            let currLink = galLinks[galLinks.length-1];
             let newDiv = document.createElement('div');
-            container.appendChild(newDiv);
+            currLink.appendChild(newDiv);
             boxes = container.querySelectorAll('div');
             let currBox = boxes[boxes.length-1];
             currBox.classList.add('box');
