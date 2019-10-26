@@ -61,6 +61,6 @@ function loadImage(url) {
     
 }
 
-for(let i = 0; i < 25; i++) {
+for(let i = 0; i < 30; i++) {
     loadImage(generateURL(5));
 }

@@ -13,9 +13,10 @@
 
 #container {
     position: relative;
-    width: 50vw;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     overflow: scroll;
@@ -24,18 +25,18 @@
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 52px;
+    height: 100vh;
     position: relative;
-    margin: 10px;
+    margin: 2px;
     border: 0px solid black;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 .box:hover {
-    transform: scale(2);
+    transform: scale(1.2);
     z-index: 2;
 }
