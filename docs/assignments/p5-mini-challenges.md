@@ -13,17 +13,17 @@ Practice some p5.js code!
 
 (my canvas dimensions are 400, 400) <br>
 
-![p5-00](images/p5-00.png)
-sketch 00 <br>
+![p5-00](images/p5-00.png)<br>
+sketch 00 <br><br><br>
 
-![p5-01](images/p5-01.png)
-sketch 01 <br>
+![p5-01](images/p5-01.png)<br>
+sketch 01 <br><br><br>
 
-![p5-02](images/p5-02.png)
-sketch 02 <br>
+![p5-02](images/p5-02.png)<br>
+sketch 02 <br><br><br>
 
-![p5-03](images/p5-03.gif)
-sketch 03 <br>
+![p5-03](images/p5-03.gif)<br>
+sketch 03 <br><br><br>
 (This gif is just an excerpt, the bubbles continue to fill up the canvas infinitely in the actual sketch) <br>
 
 
