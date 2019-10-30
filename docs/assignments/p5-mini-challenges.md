@@ -9,9 +9,9 @@ ___
 Practice some p5.js code!
 
 1. Create an account on <a href="https://editor.p5js.org/" target="blank">editor.p5js.org</a> so you can save your sketches!
-1. Attempt to recreate the following 3 images and one animation with p5.js code!
+1. Attempt to recreate the following 3 images and one animation with p5.js code!<br>
 
-(my canvas dimensions are 400, 400)
+(my canvas dimensions are 400, 400) <br>
 
 ![p5-00](images/p5-00.png)
 sketch 00 <br>
