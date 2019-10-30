@@ -23,8 +23,8 @@ sketch 01 <br>
 sketch 02 <br>
 
 ![p5-03](images/p5-03.gif)
-sketch 03
-(the gif is slightly distorted, the circles should just be circles!) <br>
+sketch 03 <br>
+(This gif is just an excerpt, the bubbles continue to fill up the canvas infinitely in the actual sketch) <br>
 
 
 We'll go over the code in class on Wednesday 10/30. Don't worry if you get stuck, just try your best! <br>
