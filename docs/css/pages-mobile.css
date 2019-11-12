@@ -1,0 +1,133 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)  {
+    
+    #title { 
+        margin: 20px 0 10px 0;
+        position: static;
+        transform: translateX(0);
+    }
+    #sticky-nav {
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+    
+    #sticky-nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+
+    #sticky-nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+        margin: 0;
+        border: 0px solid black;
+    }
+
+    #sticky-nav a {
+        color: black;
+        align-items: center;
+        display: block;
+        padding: 10px 0;
+        margin: 4px 0;
+        border: 2px solid gray;
+    }
+
+    #sticky-nav li:hover {
+        color: white;
+        background-color: black;
+        border: 0px solid white;
+    }
+    
+    #sticky-nav a:hover {
+        color: white;
+        background-color: black;
+        
+    }
+    #sticky-nav li:hover a {
+        color: white;
+        border: 0px solid black;
+    }
+
+    #assignment-list {
+        z-index: 1;
+        position: relative;
+        left: -2px;
+        top: calc(490px + 4vw);
+        margin: 4px auto;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    a.assignment-link {
+        display: flex;
+        color: inherit;
+        text-decoration: none;
+        border: solid 2px pink;
+    }
+
+    .assignment {
+        position: static;
+        padding: 0 15px;
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .assignment:hover {
+        background-color: pink;
+    }
+    .assignment h2 {
+        font-weight: 600;
+        font-size: 1.6em;
+    }
+
+    .assignment h3 {
+        font-weight: 800;
+        font-size: 1.6em;
+        letter-spacing: 1px;
+    }
+
+    .assignment-inner {
+        padding: 5px;
+
+    }
+    .green {
+        background-color: #ccffdd;
+    }
+
+    .right {
+        width: 45%;
+    }
+
+    .left {
+        width: 55%;
+    }
+
+    .schedule {
+        border: solid 2px #99ccff;
+    }
+
+    .header {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 98%;
+        height: calc(150px + 7vw);
+        background-color: white; 
+    }
+
+    a.schedule {
+        border: 2px solid #99ccff;
+    }
+}

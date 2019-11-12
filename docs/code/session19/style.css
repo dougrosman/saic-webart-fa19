@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    width: 90vw;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.gallery {
+    background-color: blue;
+    margin: 20px;
+    padding: 10px;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    margin: 10px;
+    display: inline-block;
+    width: 20%;
+}
+
+.caption {
+
+    text-align: center;
+
+}
+
+image {
+    object-fit: cover;
+    width: 100%;
+}
