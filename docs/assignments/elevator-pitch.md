@@ -3,6 +3,7 @@
 __Assigned:__ 11/12/19<br>
 __Due:__ 11/13/19<br>
 __How to submit:__ Come to class prepared to present your elevator pitch.
+
 ___
 
 ### Assignment Summary
