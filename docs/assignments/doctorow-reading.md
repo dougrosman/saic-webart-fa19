@@ -6,24 +6,14 @@ __How to submit:__ Submit a response to Canvas <a href="https://saic.instructure
 
 ___
 
-#### Guidelines+Requirements
+#### Guidelines
 
-1. 
+1. Read pages 53-63 of Cory Doctorow's <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Doctorow-Information_doesnt_want_to_be_free.pdf" target="blank">_Information Doesn't Want to be Free_</a>
 
-1. Before reading anything: write a written response to these questions:
-    1. Do you like computer programming/coding? Why?
-    1. After learning a bit about creating websites, do you feel more or less comfortable with technology?
-    1. Does learning how to code feel empowering? Why or why not?
-
-    <br>
-    
-Download and read the reading here: <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Rushkoff-Program_or_be_Programmed.pdf" target="blank">here</a>.
-<br>
+2. Read the introduction chapter of John Ippolito and Richard Rinehart's <a href="https://dougrosman.github.io/saic-webart-fa19/readings/Ippolito_Re-Collection_Introduction_LostSaved.pdf" target="blank">_Re-collection: Art, New Media, and Social Memory_</a>
 
 
-2. After the reading: write a written response to these questions:
-    1. Would you change any of your pre-reading responses? How so?
-    1. Do you agree or disagree with what the author is arguing? Why?
-    <br>
 
-__Summary: answer some questions, read a short reading, answer some more questions!__
+#### Do
+
+An open ended writing response! Write one to two paragraphs (150-250 words) responding to the readings.
