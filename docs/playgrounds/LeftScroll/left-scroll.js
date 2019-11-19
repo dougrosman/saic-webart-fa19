@@ -13,6 +13,7 @@ button.addEventListener('click', function(){
 
     if(wrapper.style.animationName == "shrink"){
         wrapper.style.animationName = "grow";
+        
         setTimeout(function() {
             wrapper.style.position = "static";
         }, 1000);

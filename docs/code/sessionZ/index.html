@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../libraries/p5/p5.dom.min.js"></script>
+    <script src="../../libraries/p5/p5.min.js"></script>
+    <script src="../../libraries/p5/p5.sound.js"></script>
+    <title>Sound Particle</title>
+</head>
+
+<script>
+        
+let particles = [];
+
+function setup() {
+  createCanvas(400, 400);
+  colorMode(HSB, 100);
+  noStroke();
+  
+  // fill up an array of particles
+  for(let i = 0; i < 500; i++) {
+    
+    let p = new Particle();
+    particles.push(p);
+  }
+ 
+  console.log(particles.length);
+  
+}
+
+function draw() {
+  background(220);
+  
+  for(let i = 0; i < particles.length; i++) {
+    
+    fill(particles[i].color);
+    ellipse(particles[i].pos.x, particles[i].pos.y, particles[i].size, particles[i].size);
+    
+    
+    if(particles[i].pos.y < 0) {
+      
+      particles[i].pos.y = height;
+      
+    }
+    particles[i].update();
+    
+  }
+  
+
+}
+
+// Particle class (but it's a function in Javascript!)
+class Particle {
+  
+constructor() {
+  this.pos = createVector(random(width), random(height));
+  this.vel = createVector(random(-1, 1), random(-1, 1));
+  this.accel = createVector(random(-0.06, 0.07), random(-.0014, .0020));
+  
+  this.size = random(2, 8);
+  this.color = color(random(100), 100, 100);
+}
+
+update() {
+    this.vel.add(this.accel);
+    this.pos.add(this.vel);
+    
+}
+
+};
+
+Particle.prototype.update = function() {
+  
+  this.vel.add(this.accel);
+  this.pos.add(this.vel);
+  
+};
+
+
+        
+        
+        
+    </script>
+<body>
+
+<div id="sketch"></div>
+</body>
+</html>
