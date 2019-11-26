@@ -1,4 +1,5 @@
-# web art | ARTTECH 3900 | SESSION 03: Beginning HTML/CSS | Sep 9, 2019
+# Beginning HTML/CSS pt. I
+## Session 03: 09/09/19
 ___
 <a href="../">Home</a><br>
 
@@ -14,8 +15,9 @@ ___
 
 ___
 
-#### Examples for Today:
-<a href="https://dougrosman.github.io/saic-webart-fa19/code/session03">Basic HTML/CSS 01</a>
+### Today's Code
+
+**Basic HTML/CSS**  |  <a href="https://dougrosman.github.io/saic-webart-fa19/code/session03">view webpage</a>  |  <a href="https://dougrosman.github.io/saic-webart-fa19/code/downloads/session03.zip">download code</a>
 
 ### Schedule
 

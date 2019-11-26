@@ -30,7 +30,7 @@ ___
 <a href="https://css-tricks.com/centering-css-complete-guide/" target="blank">Centering in CSS: a complete guide</a>
 
 ## Assignment:
-**(Due Wednesday 09/25)** Take your smartphone layout, and convert the margin and math-based layout to a more streamline flex-box layout! Your phone should look the same (although if you want to make aesthetic changes go right ahead!). Make sure you have all the images and links you need. **Once complete, upload your site to GitHub (you can find the guide on the website homepage), and then send me a link to the site in Slack**
+**(Due Wednesday 09/25)** Take your smartphone layout, and convert the margin and math-based layout to a more streamlined flex-box layout! Your phone should look the same (although if you want to make aesthetic changes go right ahead!). Make sure you have all the images and links you need. **Once complete, upload your site to GitHub (you can find the guide on the website homepage), and then send me a link to the site in Slack**
 If you run into problems, post 'em to the slack #general channel!
 
 ## Flex Box: different ways to manipulate your content!

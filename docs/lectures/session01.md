@@ -2,17 +2,21 @@
 ___
 <a href="../">Home</a><br>
 
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session01">Session 01 - 08/28/19</a> |
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">Session 02 - 09/04/19</a> |
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session03">Session 03 - 09/09/19</a> |
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session04">Session 04 - 09/11/19</a> |
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session05">Session 05 - 09/16/19</a> |
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session06">Session 06 - 09/18/19</a> |
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session07">Session 07 - 09/23/19</a> |
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session08">Session 08 - 09/25/19</a> |
-<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session09">Session 09 - 09/30/19</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session01">Session 01 – 08/28/19 – Class Introduction</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session02">Session 02 – 09/04/19 – Web/Internet History</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session03">Session 03 – 09/09/19 – Intro to HTML/CSS I</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session04">Session 04 – 09/11/19 – Intro to HTML/CSS II</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session05">Session 05 – 09/16/19 – HTML/CSS review + Presentations</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session06">Session 06 – 09/18/19 – CSS: Positioning Elements</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session07">Session 07 – 09/23/19 – CSS: Flex Box</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session08">Session 08 – 09/25/19 – CSS: Transitions + Animations</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session09">Session 09 – 09/30/19 – Media queries for mobile formatting</a> |
+<a href="https://dougrosman.github.io/saic-webart-fa19/lectures/session10">Session 10 – 10/02/19 – Intro to Javascript</a> |
 
 ___
+
+### Today's Code
+N/A
 
 ### Schedule
 
@@ -86,8 +90,3 @@ _**Note 1 (09/06/19):**_ Code Academy changed their pay structure it seems, so n
 
 * Command+B: Bookmark a page
 * Command+space: spotlight
-
-
-
-
-# New STuff!

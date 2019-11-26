@@ -24,6 +24,7 @@ Here's a list of web development and creative coding resources. I'll be adding t
 
 #### Stuff for our class
 * <a href="gitguide" target="blank">GitHub Guide</a>
+* <a href="customDomain" target="blank">Link a Custom Domain to your GitHub Pages</a>
 
 #### General Coding
 * <a href="https://learn.freecodecamp.org" target="blank">Free Code Camp</a> – Great guided tutorials in HTML/CSS/Javascript and more

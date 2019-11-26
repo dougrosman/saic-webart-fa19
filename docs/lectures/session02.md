@@ -14,6 +14,9 @@ ___
 
 ___
 
+### Today's Code
+N/A
+
 ### Schedule
 
 <a href="http://nickbriz.com/" target="blank">Nick Briz</a> is subbing!
