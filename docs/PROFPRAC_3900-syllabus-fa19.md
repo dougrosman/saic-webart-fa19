@@ -10,10 +10,6 @@ __INSTITUTION:__ The School of the Art Institute of Chicago <br>
 Doug Rosman, Lecturer | drosman@saic.edu | <a href="http://dougrosman.com" target="blank">dougrosman.com</a><br>
 Mentoring Hours: In class, see course schedule. If you miss an in-class mentoring meeting, email me to schedule a make-up appointment. <br>
 
-##### a note:
-It is important that this class maintains a respectful, safe and inclusive environment. We all should feel the comfort we all deserve in order to thrive academically and artistically. If you do not feel safe or heard, please, feel free to let me know.
-
-
 #### CLASS WEBSITE/MATERIALS
 Class Website: [https://dougrosman.github.io/saic-webart-fa19](https://dougrosman.github.io/saic-webart-fa19) <br>
 <a href="https://saic.instructure.com/courses/2560557" target="blank">Canvas</a> (99% of course content will be in the class website above, but I will make announcements in Canvas, as that's a pretty good way to reach everyone. Grades and Attendance will also be recorded in Canvas).<br>
@@ -182,8 +178,8 @@ As part of the Professional Practice curriculum, each student is required to mee
 #### Week 07: DOM Manipulation, Loops, Arrays
 
 ##### Mon 10/07:
-* DOM Manipulation
-* Loops
+* DOM Manipulation with Javascript
+* Javascript/programming basics 
 * Mid-Semester course evaluations
 
 ##### Wed 10/09:
@@ -199,8 +195,7 @@ As part of the Professional Practice curriculum, each student is required to mee
 * Midterm lab time
 
 ##### Wed 10/16:
-* CSS Chrome Extensions
-* JS Chrome Extensions
+* Advanced CSS Positiong: Flex Grid
 * __Assignment:__
     1. Work on Midterm __(due: 10/23)__
 
@@ -221,9 +216,8 @@ As part of the Professional Practice curriculum, each student is required to mee
 * One-on-one meetings (1/3) – __Group A__
 
 ##### Wed 10/30:
-* Events
+* Events and Eventlisteners
 * Conditionals
-* Canvas
 * p5.js
 * One-on-one meetings (1/3) – __Group B__
 * __Assignment:__
@@ -243,6 +237,8 @@ As part of the Professional Practice curriculum, each student is required to mee
 * p5.dom
 * p5.js Video
 * Nested Loops
+* CAPX job fair preparation
+* Elevator pitch workshop
 * __Assignment:__
     1. p5.js Assignment 2
 
@@ -268,16 +264,13 @@ As part of the Professional Practice curriculum, each student is required to mee
 * One-on-one meetings (2/3) – __Group A__
 
 ##### Wed 11/20:
-* Face Tracking
-* Emotion Tracking
-* p5.js in Chrome Extensions
+* Objects & Particles
 * Final Project lab time
 * One-on-one meetings (2/3) – __Group B__
 
 #### Week 14: Objects & Particles and Final Project work time
 
 ##### Mon 11/25:
-* Objects & Particles
 * Final Project Lab Time
 
 ##### Wed 11/27:
@@ -298,7 +291,6 @@ As part of the Professional Practice curriculum, each student is required to mee
 
 ##### Wed 12/11:
 * Final Project Lab Time
-* Finish group exhibition site
 
 #### Week 17: CRITIQUES!
 
