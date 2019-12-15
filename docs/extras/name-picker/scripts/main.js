@@ -6,7 +6,9 @@ let names = [];
 let tempFrameCount;
 let shouldLerp = false;
 let shouldDisplay = false;
-let winner;
+let singleName = false;
+var winner = "";
+var removedNames = 0;
 
 //let names = ["Darcy", "Dermott", "Fengwei", "Ilai", "Jun", "Max", "Riley", "Jeanette", "Shannon", "Soo", "Suri", "Winnie", "Xin", "Zhixuan"];
 
@@ -38,10 +40,14 @@ function draw() {
       pop();
     }
 
-    for(let i = 0; i < names.length; i++) {
+    for(let i = 0; i < nameParticles.length; i++) {
       let p = nameParticles[i];
       p.update();
-      p.display();
+
+      push();
+      translate(p.pos.x, p.pos.y);
+        p.display();
+      pop();
     
       // if a name slows down enough, remove it from the array
       if(nameParticles.length > 1 && abs(p.vel.x) < 0.2 && abs(p.vel.y) < 0.2) {
@@ -49,18 +55,24 @@ function draw() {
         tempFrameCount = frameCount;
       }
 
+      if(singleName && abs(nameParticles[0].vel.x) < 0.2 && abs(nameParticles[0].vel.y) < 0.2) {
+        tempFrameCount = frameCount;
+        singleName = !singleName;
+      }
+
       // if one name remains, fade in some squares after 2 seconds...
-      if(tempParticles.length == 1 && frameCount-tempFrameCount > 120 && !shouldLerp){
+      if(nameParticles.length == 1 && frameCount-tempFrameCount > 120 && !shouldLerp){
+        print("kkkk");
         push();
           noStroke();
           fill(0, 0, 0, 4);
           rect(0, 0, width, height);
         pop();
 
-        winner = p.name;
+        winner = nameParticles[0].name;
+        console.log("winner: " + winner);
 
         if(frameCount-tempFrameCount > 180) {
-          
           tempFrameCount = frameCount;
           shouldLerp = !shouldLerp;
         }
@@ -72,7 +84,7 @@ function draw() {
 
       let p0 = nameParticles[0];
       p0.pos.x = lerp(p0.pos.x, (width/2)-(textWidth(p0.name)/2), lerpVal);
-      p0.pos.y = lerp(p.pos.y, height/2, lerpVal);
+      p0.pos.y = lerp(p0.pos.y, height/2, lerpVal);
     }
   }
 }
@@ -81,22 +93,30 @@ function selectName() {
 
   // clear the nameParticles array
   nameParticles = [];
-
   for(let i = 0; i < names.length; i++) {
   
     let p = new Particle(names[i]);
     nameParticles.push(p);
   }
+  shouldDisplay = true;
+  shouldLerp = false;
+  print(nameParticles);
 }
 
 roller.addEventListener("click", function(){
-    
-  // reset the page
-  background(random(100), random(100), random(100));
   
-  selectName();
-  
-
+  if(names.length == 0) {
+    addNamesDebug();
+  } else {
+    // reset the page
+    removeName(winner);
+    if(names.length == 1) {
+      singleName = true;
+    }
+    background(0);  
+    selectName();
+    removedNames++;
+  }
 });
 
 // Particle class
@@ -105,13 +125,13 @@ class Particle {
   constructor(_name) {
 
     this.pos = createVector((width/2)-(textWidth(_name)/2), (height/2)-textAscent()/2);
-    this.vel = createVector(random(-30000, 30000), random(-30000, 30000));
+    this.vel = createVector(random(-10000, 10000), random(-10000, 10000));
     
     this.color = color(random(100), random(100), 100);
     this.stroke = color(random(100), random(100), 100);
     this.size = 1;
     this.name = _name;
-    this.drag = random(0.98, 0.992);
+    this.drag = random(0.98, 0.991);
   }
 
   update() {
@@ -150,8 +170,6 @@ class Particle {
     }
   }
 }
-
-
 
 function windowResized() {
   if(fullscreen())
@@ -198,6 +216,19 @@ function addNames() {
   }
 }
 
+function addNamesDebug() {
+  removedNames = 0;
+  let remainingNames = document.getElementById("remaining-names");
+  names = ["holy", "moly", "it's", "party", "time!", "look", "at", "all", "these", "names!"];
+
+  for(let i = 0; i < names.length; i++) {
+    let liNode = document.createElement("LI");
+    let textNode = document.createTextNode(names[i]);
+    liNode.appendChild(textNode);
+    remainingNames.appendChild(liNode);
+  }
+}
+
 function search() {
   if(event.key === 'Enter') {
       addNames();       
@@ -206,15 +237,17 @@ function search() {
 
 function removeName(_name) {
 
-  let removeIndex = 0;
-  for(let i = 0; i < names.length; i++){
-    if(names[i] == _name) {
-      removeIndex = i;
+  if(removedNames > 0){
+    let removeIndex = 0;
+    for(let i = 0; i < names.length; i++){
+      if(names[i] == _name) {
+        removeIndex = i;
+      }
     }
+    names.splice(removeIndex, 1);
+    let ulNames = document.getElementById("remaining-names");
+    ulNames.removeChild(ulNames.childNodes[removeIndex]);
   }
-  names.splice(removeIndex, 1);
-  let ulNames = document.getElementById("remaining-names");
-  ulNames.removeChild(ulNames.childNodes[removeIndex]);
 }
 
 ////////// UNUSED //////////
