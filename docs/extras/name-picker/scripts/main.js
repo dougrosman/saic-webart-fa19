@@ -1,47 +1,14 @@
 let roller = document.getElementById("roll-it");
 let sketchParent = document.getElementById("sketch-parent");
 let particles = [];
+let tempParticles = [];
 var numParticles = 6.0;
 let ages = [];
-let agesCopy = [];
 let names = ["Darcy", "Dermott", "Fengwei", "Ilai", "Jun", "Max", "Riley", "Jeanette", "Shannon", "Soo", "Suri", "Winnie", "Xin", "Zhixuan"];
-let namesCopy = ["Darcy", "Dermott", "Fengwei", "Ilai", "Jun", "Max", "Riley", "Jeanette", "Shannon", "Soo", "Suri", "Winnie", "Xin", "Zhixuan"];
-
-
-function resetParticleSystem(_names, _age) {
-
-    // reshuffled the names
-    let shuffled = shuffle(_names);
-    console.log(shuffled);
-    // fill up an array of particles
-    for(let i = 0; i < namesCopy.length; i++) {
-    
-        particles[i].name = shuffled[i];
-        particles[i].age = ages[i];
-        this.pos = createVector(random(width), random(height));
-        this.vel = createVector(random(-2, 2), random(-2, 2));
-        this.accel = createVector(random(-0.00001, 0.00001), random(-0.0001, 0.0001));
-        this.age = ages[i];
-        this.name = shuffled[i];
-        this.color = color(random(100), random(50, 100), 100);
-        this.stroke = color(random(100), random(80, 100), 30);
-    }
-}
-
-roller.addEventListener("click", function(){
-    
-    // reset the page
-    background(100);
-
-    // pop off the last one
-    namesCopy.pop();
-    ages.shift();
-
-    //if(ready) {
-    resetParticleSystem(namesCopy, ages);
-
-   // }
-});
+let shuffledNames = shuffle(names);
+let tempFrameCount;
+let oneName = true;
+let shouldLerp = false;
 
 
 function setup() {
@@ -50,159 +17,182 @@ function setup() {
   canvas.parent("sketch-parent");
   
   colorMode(HSB, 100);
-  background(100);
+  background(0);
   rectMode(CENTER);
-  textSize(50);
+  textSize(100);
+  strokeWeight(4);
 
   // set up ages array
-  for(let i = 0; i < namesCopy.length; i++) {
-    ages.push(120 + (i*i*i));
-    agesCopy.push(120 + (i*i));
-}
+  for(let i = 0; i < shuffledNames.length-2; i++) {
+    ages.push(60+(i*i*4));
+  }
+  ages.push(800);
+  ages.push(1200);
+
+  console.log("Initial shuffle: " + shuffledNames);
 
   // create initial particle system
-  for(let i = 0; i < namesCopy.length; i++) {
-
-    // shuffle the names:
-    let shuffledNames = shuffle(namesCopy);
-    
+  for(let i = 0; i < shuffledNames.length; i++) {  
     let p = new Particle(shuffledNames[i], ages[i]);
     particles.push(p);
-}
-  
-  
-}
-
-///// FULLSCREEN UTILS
-
-function windowResized() {
-  if(fullscreen())
-  {
-    sketchParent.style.position = "absolute";
-    sketchParent.style.top = "0";
-    sketchParent.style.left = "0";
-    sketchParent.style.border = "none";
-    resizeCanvas(innerWidth, innerHeight);
-  } else {
-    sketchParent.style.position = "static";
-    sketchParent.style.border = "2px solid coral";
-    resizeCanvas(sketchParent.clientWidth, sketchParent.clientHeight);
+    tempParticles.push(p);
   }
-  background(100);
 }
 
-
-// function mousePressed() {
-//   let fs = fullscreen();
-//   fullscreen(!fs);
-// }
 
 function draw() {
-  //background(220);
-  
-  for(let i = 0; i < particles.length; i++) {
+
+  if(!shouldLerp){
+    push();
+      fill(0, 0, 0, 5);
+      rectMode(CORNER);
+      noStroke();
+      rect(0, 0, width, height);
+    pop();
+  }
+  for(let i = 0; i < tempParticles.length; i++) {
     
-    stroke(particles[i].stroke);
-    fill(particles[i].color);
-    text(particles[i].name, particles[i].pos.x, particles[i].pos.y);
+    stroke(tempParticles[i].stroke);
+    fill(tempParticles[i].color);
+    //textSize(tempParticles[i].size);
+    push();
+      translate(tempParticles[i].pos.x, tempParticles[i].pos.y);
+      rotate((abs(tempParticles[i].vel.x))/5);
+      text(tempParticles[i].name, 0, 0);
+    pop();
+    tempParticles[i].update();
     
-    particles[i].update();
+    //console.log(abs(tempParticles[i].vel.y));
+
+    // if(abs(tempParticles[i].vel.x) < 0.25 && abs(tempParticles[i].vel.y) < 0.25 && abs(tempParticles[i].pos.y == sketchParent.clientHeight) && tempParticles.length > 1) {
+    //   tempParticles.splice(i, 1);
+    //   //print(tempParticles);
+    // }
+
+    if(abs(tempParticles[i].vel.x) < 0.25 && abs(tempParticles[i].vel.y) < 0.25 && tempParticles.length > 1) {
+      tempParticles.splice(i, 1);
+      tempFrameCount = frameCount;
+      //print(tempParticles);
+    }
+
+    
+    if(frameCount-tempFrameCount > 120 && tempParticles.length == 1 && oneName) {
+      
+      push();
+        rectMode(CORNER);
+        noStroke();
+        fill(0, 0, 0, 5);
+        rect(0, 0, width, height);
+      pop();
+
+      if(frameCount-tempFrameCount > 180 && !shouldLerp) {
+        
+        //background(0);
+        tempFrameCount = frameCount;
+        shouldLerp = !shouldLerp;
+        oneName = false;
+      }
+      
+    }
+
+    if(shouldLerp) {
+      let lerpVal = constrain(map(frameCount, tempFrameCount, tempFrameCount+240, 0., 1.), 0., 1.);
+      //console.log(lerpVal);
+
+      tempParticles[0].pos.x = lerp(tempParticles[0].pos.x, (width/2)-(textWidth(tempParticles[0].name)/2), lerpVal);
+      tempParticles[0].pos.y = lerp(tempParticles[0].pos.y, height/2, lerpVal);
+    }
   }
 }
+
+function resetParticleSystem(_names, _age) {
+
+  tempParticles = [];
+  // reset particle values
+  for(let i = 0; i < _names.length; i++) {
+  
+      let currParticle = particles[i];
+
+      currParticle.pos = createVector((width/2)-(textWidth(currParticle.name)/2), (height/2)-textAscent()/2);
+      currParticle.vel = createVector(random(-30, 30), random(-30, -30));
+      currParticle.age = ages[i];
+      currParticle.name = shuffledNames[i];
+      currParticle.color = color(random(100), random(50, 100), 100);
+      currParticle.stroke = color(random(100), random(80, 100), 30);
+      currParticle.drag = random(0.99, 0.993);
+
+      tempParticles[i] = particles[i];
+  }
+  
+}
+
+roller.addEventListener("click", function(){
+    
+  // reset the page
+  background(random(100), random(100), random(100));
+
+  // pop off the last name
+  console.log("winner?: " + shuffledNames.pop());
+
+  // shift off the first age
+  ages.shift();
+
+  shuffle(shuffledNames);
+  
+  resetParticleSystem(shuffledNames, ages);
+  
+
+});
 
 // Particle class
 class Particle {
   
   constructor(_name, _age) {
 
-    this.pos = createVector(random(width), random(height));
-    this.vel = createVector(random(-2, 2), random(-2, 2));
-    this.accel = createVector(random(-0.0001, 0.0001), random(-0.001, 0.001));
+    this.pos = createVector((width/2)-(textWidth(_name)/2), (height/2)-textAscent()/2);
+    this.vel = createVector(random(-30000, 30000), random(-30000, 50000));
+    this.accel = createVector(0.0, 0.0);
     this.age = _age;
-    this.color = color(random(100), random(50, 100), 100);
-    this.stroke = color(random(100), random(80, 100), 30);
-    this.size = 20;
     
+    this.color = color(random(100), random(100), 100);
+    this.stroke = color(random(100), random(100), 100);
+    this.size = 1;
     this.name = _name;
+    this.drag = random(0.98, 0.992);
     
-    
-    // this.osc = new p5.Oscillator();
-    // this.osc.setType('square');
-    // this.osc.freq(30);
-    // this.osc.amp(map(this.size, 0.0, 100.0, 0.0, 1.0/numParticles));
-    // this.osc.start();
   }
-
 
   update() {
 
-    // this.accel.add(this.accel2);
-    // this.vel.add(this.accel);
-    // this.pos.add(this.vel);
-    
-    // this.osc.freq(map(this.pos.x+this.pos.y, 0.001, innerWidth+innerHeight, 30.0, 60.0));
-    // this.osc.amp(map(this.size, 0, 100, 0, 1.0/numParticles));
-    // this.checkWalls();
-    // this.size = max(abs(this.vel.x), abs(this.vel.y));
-
-    // if (this.age < 0) {
-    //   this.osc.amp(0);
-    //   this.color = (0, 0);
-    //   this.stroke = (0, 0);
-
-    // } else {
-      this.vel.add(this.accel);
-      this.pos.add(this.vel);
-      
-
-      this.age--;
-
-      if(this.age < 0)
-      {
-        this.vel = createVector(0, 0);
-
-        this.accel = createVector(0, 0);
-      }
-      this.checkWalls();
-    
-    //   this.osc.freq(map(this.pos.x+this.pos.y, 0.001, innerWidth+innerHeight, 40.0, 200.0));
-    //   this.osc.amp(map(this.size*4, 0, windowHeight/4, 0, 1.0/numParticles));
-    //   this.checkWalls();
-    //   this.size = max(abs(this.vel.x), abs(this.vel.y));
-
-    // }
-
+    this.vel.add(this.accel);
+    this.vel.x*=this.drag;
+    this.vel.y*=this.drag;
+    this.pos.add(this.vel);
+    this.size+=0.08;
+   
+    this.checkWalls();
   }
 
   checkWalls() {
   
-    if(this.pos.x > sketchParent.clientWidth-this.size/2) {
-      this.pos.x = sketchParent.clientWidth-this.size/2;
+    if(this.pos.x > sketchParent.clientWidth-textWidth(this.name)+10) {
+      this.pos.x = sketchParent.clientWidth-textWidth(this.name)+10;
       this.vel.x = -this.vel.x;
-      this.accel.x = -this.accel.x;
-      //background(0);
     }
-    if(this.pos.x < this.size/2) {
-      this.pos.x = this.size/2;
+    if(this.pos.x < -10) {
+      this.pos.x = -10;
       this.vel.x = -this.vel.x;
-      this.accel.x = -this.accel.x;
-      //background(0);
     }
-    if(this.pos.y > sketchParent.clientHeight-this.size/2) {
-      this.pos.y = sketchParent.clientHeight-this.size/2;
+    if(this.pos.y > sketchParent.clientHeight) {
+      this.pos.y = sketchParent.clientHeight;
       this.vel.y = -this.vel.y;
-      this.accel.y = -this.accel.y;
-      //background(0);
     }
-    if(this.pos.y < this.size/2) {
-      this.pos.y = this.size/2;
+    if(this.pos.y < textAscent()/1.3) {
+      this.pos.y = textAscent()/1.3;
       this.vel.y = -this.vel.y;
-      this.accel.y = -this.accel.y;
-      //background(0);
     }
   }
 }
-
 
 function shuffle(arra1) {
 
@@ -220,4 +210,20 @@ function shuffle(arra1) {
         arra1[index] = temp;
     }
     return arra1;
+}
+
+function windowResized() {
+  if(fullscreen())
+  {
+    sketchParent.style.position = "absolute";
+    sketchParent.style.top = "0";
+    sketchParent.style.left = "0";
+    sketchParent.style.border = "none";
+    resizeCanvas(innerWidth, innerHeight);
+  } else {
+    sketchParent.style.position = "static";
+    sketchParent.style.border = "2px solid coral";
+    resizeCanvas(sketchParent.clientWidth, sketchParent.clientHeight);
+  }
+  background(100);
 }
