@@ -47,12 +47,29 @@ header {
 }
 
 #remaining-names {
-    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
     border: 2px solid green;
 }
 
+#left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#warning {
+    /* position: relative; */
+    /* display: none; */
+    color: red;
+    font-size: 12px;
+    font-family: arial;
+
+}
+
 #sketch-parent {
-    border: 2px solid coral;
+    /* border: 2px solid coral; */
     width: 90%;
     height: 100%;
 }

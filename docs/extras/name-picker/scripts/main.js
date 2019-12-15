@@ -1,145 +1,100 @@
 let roller = document.getElementById("roll-it");
 let sketchParent = document.getElementById("sketch-parent");
-let particles = [];
-let tempParticles = [];
-var numParticles = 6.0;
-let ages = [];
-let names = ["Darcy", "Dermott", "Fengwei", "Ilai", "Jun", "Max", "Riley", "Jeanette", "Shannon", "Soo", "Suri", "Winnie", "Xin", "Zhixuan"];
-let shuffledNames = shuffle(names);
+
+let nameParticles = [];
+let names = [];
 let tempFrameCount;
-let oneName = true;
 let shouldLerp = false;
+let shouldDisplay = false;
+let winner;
+
+//let names = ["Darcy", "Dermott", "Fengwei", "Ilai", "Jun", "Max", "Riley", "Jeanette", "Shannon", "Soo", "Suri", "Winnie", "Xin", "Zhixuan"];
 
 
 function setup() {
 
   var canvas = createCanvas(sketchParent.clientWidth, sketchParent.clientHeight);
   canvas.parent("sketch-parent");
+  background(0);
   
   colorMode(HSB, 100);
-  background(0);
-  rectMode(CENTER);
   textSize(100);
   strokeWeight(4);
-
-  // set up ages array
-  for(let i = 0; i < shuffledNames.length-2; i++) {
-    ages.push(60+(i*i*4));
-  }
-  ages.push(800);
-  ages.push(1200);
-
-  console.log("Initial shuffle: " + shuffledNames);
-
-  // create initial particle system
-  for(let i = 0; i < shuffledNames.length; i++) {  
-    let p = new Particle(shuffledNames[i], ages[i]);
-    particles.push(p);
-    tempParticles.push(p);
-  }
 }
 
 
 function draw() {
 
-  if(!shouldLerp){
-    push();
-      fill(0, 0, 0, 5);
-      rectMode(CORNER);
-      noStroke();
-      rect(0, 0, width, height);
-    pop();
-  }
-  for(let i = 0; i < tempParticles.length; i++) {
-    
-    stroke(tempParticles[i].stroke);
-    fill(tempParticles[i].color);
-    //textSize(tempParticles[i].size);
-    push();
-      translate(tempParticles[i].pos.x, tempParticles[i].pos.y);
-      rotate((abs(tempParticles[i].vel.x))/5);
-      text(tempParticles[i].name, 0, 0);
-    pop();
-    tempParticles[i].update();
-    
-    //console.log(abs(tempParticles[i].vel.y));
+  // draw nearly transparent squares over whole canvas
+  
 
-    // if(abs(tempParticles[i].vel.x) < 0.25 && abs(tempParticles[i].vel.y) < 0.25 && abs(tempParticles[i].pos.y == sketchParent.clientHeight) && tempParticles.length > 1) {
-    //   tempParticles.splice(i, 1);
-    //   //print(tempParticles);
-    // }
+  if(shouldDisplay) {
 
-    if(abs(tempParticles[i].vel.x) < 0.25 && abs(tempParticles[i].vel.y) < 0.25 && tempParticles.length > 1) {
-      tempParticles.splice(i, 1);
-      tempFrameCount = frameCount;
-      //print(tempParticles);
-    }
-
-    
-    if(frameCount-tempFrameCount > 120 && tempParticles.length == 1 && oneName) {
-      
+    if(!shouldLerp){
       push();
-        rectMode(CORNER);
+        fill(0, 0, 0, 4);
         noStroke();
-        fill(0, 0, 0, 5);
         rect(0, 0, width, height);
       pop();
+    }
 
-      if(frameCount-tempFrameCount > 180 && !shouldLerp) {
-        
-        //background(0);
+    for(let i = 0; i < names.length; i++) {
+      let p = nameParticles[i];
+      p.update();
+      p.display();
+    
+      // if a name slows down enough, remove it from the array
+      if(nameParticles.length > 1 && abs(p.vel.x) < 0.2 && abs(p.vel.y) < 0.2) {
+        nameParticles.splice(i, 1);
         tempFrameCount = frameCount;
-        shouldLerp = !shouldLerp;
-        oneName = false;
       }
-      
+
+      // if one name remains, fade in some squares after 2 seconds...
+      if(tempParticles.length == 1 && frameCount-tempFrameCount > 120 && !shouldLerp){
+        push();
+          noStroke();
+          fill(0, 0, 0, 4);
+          rect(0, 0, width, height);
+        pop();
+
+        winner = p.name;
+
+        if(frameCount-tempFrameCount > 180) {
+          
+          tempFrameCount = frameCount;
+          shouldLerp = !shouldLerp;
+        }
+      }
     }
 
     if(shouldLerp) {
-      let lerpVal = constrain(map(frameCount, tempFrameCount, tempFrameCount+240, 0., 1.), 0., 1.);
-      //console.log(lerpVal);
+      let lerpVal = constrain(map(frameCount, tempFrameCount, tempFrameCount+240, 0.0, 1.0), 0.0, 1.0);
 
-      tempParticles[0].pos.x = lerp(tempParticles[0].pos.x, (width/2)-(textWidth(tempParticles[0].name)/2), lerpVal);
-      tempParticles[0].pos.y = lerp(tempParticles[0].pos.y, height/2, lerpVal);
+      let p0 = nameParticles[0];
+      p0.pos.x = lerp(p0.pos.x, (width/2)-(textWidth(p0.name)/2), lerpVal);
+      p0.pos.y = lerp(p.pos.y, height/2, lerpVal);
     }
   }
 }
 
-function resetParticleSystem(_names, _age) {
+function selectName() {
 
-  tempParticles = [];
-  // reset particle values
-  for(let i = 0; i < _names.length; i++) {
+  // clear the nameParticles array
+  nameParticles = [];
+
+  for(let i = 0; i < names.length; i++) {
   
-      let currParticle = particles[i];
-
-      currParticle.pos = createVector((width/2)-(textWidth(currParticle.name)/2), (height/2)-textAscent()/2);
-      currParticle.vel = createVector(random(-30, 30), random(-30, -30));
-      currParticle.age = ages[i];
-      currParticle.name = shuffledNames[i];
-      currParticle.color = color(random(100), random(50, 100), 100);
-      currParticle.stroke = color(random(100), random(80, 100), 30);
-      currParticle.drag = random(0.99, 0.993);
-
-      tempParticles[i] = particles[i];
+    let p = new Particle(names[i]);
+    nameParticles.push(p);
   }
-  
 }
 
 roller.addEventListener("click", function(){
     
   // reset the page
   background(random(100), random(100), random(100));
-
-  // pop off the last name
-  console.log("winner?: " + shuffledNames.pop());
-
-  // shift off the first age
-  ages.shift();
-
-  shuffle(shuffledNames);
   
-  resetParticleSystem(shuffledNames, ages);
+  selectName();
   
 
 });
@@ -147,19 +102,16 @@ roller.addEventListener("click", function(){
 // Particle class
 class Particle {
   
-  constructor(_name, _age) {
+  constructor(_name) {
 
     this.pos = createVector((width/2)-(textWidth(_name)/2), (height/2)-textAscent()/2);
-    this.vel = createVector(random(-30000, 30000), random(-30000, 50000));
-    this.accel = createVector(0.0, 0.0);
-    this.age = _age;
+    this.vel = createVector(random(-30000, 30000), random(-30000, 30000));
     
     this.color = color(random(100), random(100), 100);
     this.stroke = color(random(100), random(100), 100);
     this.size = 1;
     this.name = _name;
     this.drag = random(0.98, 0.992);
-    
   }
 
   update() {
@@ -168,9 +120,14 @@ class Particle {
     this.vel.x*=this.drag;
     this.vel.y*=this.drag;
     this.pos.add(this.vel);
-    this.size+=0.08;
    
     this.checkWalls();
+  }
+
+  display() {
+    stroke(this.stroke);
+    fill(this.color);
+    text(this.name, 0, 0);
   }
 
   checkWalls() {
@@ -194,6 +151,75 @@ class Particle {
   }
 }
 
+
+
+function windowResized() {
+  if(fullscreen())
+  {
+    sketchParent.style.position = "absolute";
+    sketchParent.style.top = "0";
+    sketchParent.style.left = "0";
+    sketchParent.style.border = "none";
+    resizeCanvas(innerWidth, innerHeight);
+  } else {
+    sketchParent.style.position = "static";
+    sketchParent.style.border = "2px solid coral";
+    resizeCanvas(sketchParent.clientWidth, sketchParent.clientHeight);
+  }
+  background(0);
+}
+
+function addNames() {
+  let duplicateCounter = 0;
+  let remainingNames = document.getElementById("remaining-names");
+  let enteredName = document.getElementById("name-field");
+  
+  for(let i = 0; i < names.length; i++) {
+    if(names[i] === enteredName.value) {
+      duplicateCounter++;
+    }
+  }
+  if(duplicateCounter > 0) {
+    enteredName.value = "";
+    enteredName.placeholder="Enter a different name";
+  } else if(enteredName.value === "") {
+    enteredName.placeholder="plz";
+  }
+  
+  else {
+    enteredName.placeholder="Enter a name";
+    names.push(enteredName.value);
+    console.log(names);
+    let liNode = document.createElement("LI");
+    let textNode = document.createTextNode(names[names.length-1]);
+    liNode.appendChild(textNode);
+    remainingNames.appendChild(liNode);
+    enteredName.value = "";
+  }
+}
+
+function search() {
+  if(event.key === 'Enter') {
+      addNames();       
+  }
+}
+
+function removeName(_name) {
+
+  let removeIndex = 0;
+  for(let i = 0; i < names.length; i++){
+    if(names[i] == _name) {
+      removeIndex = i;
+    }
+  }
+  names.splice(removeIndex, 1);
+  let ulNames = document.getElementById("remaining-names");
+  ulNames.removeChild(ulNames.childNodes[removeIndex]);
+}
+
+////////// UNUSED //////////
+
+/*
 function shuffle(arra1) {
 
     var ctr = arra1.length, temp, index;
@@ -212,18 +238,4 @@ function shuffle(arra1) {
     return arra1;
 }
 
-function windowResized() {
-  if(fullscreen())
-  {
-    sketchParent.style.position = "absolute";
-    sketchParent.style.top = "0";
-    sketchParent.style.left = "0";
-    sketchParent.style.border = "none";
-    resizeCanvas(innerWidth, innerHeight);
-  } else {
-    sketchParent.style.position = "static";
-    sketchParent.style.border = "2px solid coral";
-    resizeCanvas(sketchParent.clientWidth, sketchParent.clientHeight);
-  }
-  background(100);
-}
+*/

@@ -24,13 +24,13 @@
         </header>
         
         <div id="sketch-stuff">
-            <ul id="remaining-names">
-                <li>doog</li>
-                <li>doog</li>
-                <li>doog</li>
-                <li>doog</li>
-                <li>doog</li>
-            </ul>
+            <div id="left-section">
+                <input type="text" id="name-field" placeholder="Enter a name" onkeydown="search(this)">
+                <button onclick="addNames()" id="submit">Submit</button>
+                
+                <ul id="remaining-names"></ul>
+            </div>
+            
             <div id="sketch-parent"></div>
         </div>
     </div>
