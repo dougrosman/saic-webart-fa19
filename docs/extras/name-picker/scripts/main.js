@@ -48,21 +48,25 @@ function draw() {
       translate(p.pos.x, p.pos.y);
         p.display();
       pop();
+
+      let t = 0.185;
     
       // if a name slows down enough, remove it from the array
-      if(nameParticles.length > 1 && abs(p.vel.x) < 0.2 && abs(p.vel.y) < 0.2) {
+      if(nameParticles.length > 1 && abs(p.vel.x) < t && abs(p.vel.y) < t) {
+        // p.vel.x = 0;
+        // p.vel.y = 0;
         nameParticles.splice(i, 1);
         tempFrameCount = frameCount;
       }
 
-      if(singleName && abs(nameParticles[0].vel.x) < 0.2 && abs(nameParticles[0].vel.y) < 0.2) {
+      if(singleName && abs(nameParticles[0].vel.x) < t && abs(nameParticles[0].vel.y) < t) {
         tempFrameCount = frameCount;
         singleName = !singleName;
       }
 
       // if one name remains, fade in some squares after 2 seconds...
-      if(nameParticles.length == 1 && frameCount-tempFrameCount > 120 && !shouldLerp){
-        print("kkkk");
+      if(nameParticles.length == 1 && frameCount-tempFrameCount > 120 && !shouldLerp && !singleName){
+        
         push();
           noStroke();
           fill(0, 0, 0, 4);
@@ -124,14 +128,15 @@ class Particle {
   
   constructor(_name) {
 
+    let t = 1500;
     this.pos = createVector((width/2)-(textWidth(_name)/2), (height/2)-textAscent()/2);
-    this.vel = createVector(random(-10000, 10000), random(-10000, 10000));
+    this.vel = createVector(random(-t, t), random(-t, t));
     
     this.color = color(random(100), random(100), 100);
     this.stroke = color(random(100), random(100), 100);
     this.size = 1;
     this.name = _name;
-    this.drag = random(0.98, 0.991);
+    this.drag = random(0.987, 0.991);
   }
 
   update() {
@@ -219,7 +224,7 @@ function addNames() {
 function addNamesDebug() {
   removedNames = 0;
   let remainingNames = document.getElementById("remaining-names");
-  names = ["holy", "moly", "it's", "party", "time!", "look", "at", "all", "these", "names!"];
+  names = ["dog", "cat", "fish", "bird", "antelope", "penguin", "dolphin", "monkey", "caterpillar", "lizard", "shark", "spider", "mouse", "keyboard", "lion", "bear", "ferret", "wildabeast", "crocodile", "alligator", "ladybug", "cow", "pig", "chicken", "turtle", "orangutan", "sloth"];
 
   for(let i = 0; i < names.length; i++) {
     let liNode = document.createElement("LI");
